@@ -1,0 +1,16 @@
+\begin{tikzpicture}
+   \draw [gray,very thick] 
+      (0,0) .. controls (0.8,1.5) and (1.2,2) .. (1,4);
+   \fill [gray,opacity=0.1] 
+      (0,0) .. controls (0.8,1.5) and (1.2,2) .. (1,4)
+      --
+      (1,4) -- (0,4);
+   
+   \draw [red,ultra thick,densely dashed] 
+      (0,4) -- (2,4);
+   
+   \draw [very thick] 
+      (0,4) -- (0,0) -- (3,3) -- (2,4);
+   \draw [dashed,very thick]
+      (2,4) -- (0,2);   
+\end{tikzpicture}

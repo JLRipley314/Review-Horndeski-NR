@@ -1,0 +1,4 @@
+modgravbh:
+	pdflatex $@
+	bibtex $@
+	pdflatex $@
