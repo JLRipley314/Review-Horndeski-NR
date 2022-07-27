@@ -1447,28 +1447,37 @@ in the sense that small perturbations to the initial data lead to solutions
 where there are no naked singularities.
 More generally, the 
 \emph{weak cosmic censorship conjecture}\cite{1969NCimR...1..252P}
-posits that naked singularities do not form from generic initial
-data in GR coupled to ``standard'' matter fields (for example 
-minimally coupled scalar field matter).
+posits that for generic initial data,
+solutions to GR coupled to ``standard'' matter fields (for example 
+minimally coupled scalar field matter) has well defined global
+solutions (e.g. the spacetime is geodesically complete)
+outside of trapped regions.
 While there remains no proof of this conjecture, no counterexample to it
 has ever been found, and it is widely expected to be true\cite{Wald:1997wa}.
+A well-defined solution can mean there are no curvature singularities outside
+of black hole horizons, 
+but more broadly it can be taken to
+mean that the Einstein equations can be evolved in time,
+for all time and space, without having to introduce new (ad-hoc)
+boundary conditions.
 
 Depending on the theory being considered,
 exact solutions to a Horndeski theory can suffer
 from several different kinds of issues:
 \begin{enumerate}
-   \item The equations of motion can lose their hyperbolic character
+   \item For some Horndeski gravity theories,
+      the equations of motion can lose their hyperbolic character
       in regions of high curvature--that is
       \emph{elliptic regions}\cite{Ripley:2019hxt,
          Ripley:2019irj,Figueras:2020dzx} can form.
-         This indicates that at least some H
    
       \item There is some evidence that
       curvature singularities can form outside of trapped region for
       some Horndeski theories\cite{Kanti:1995vq,Sotiriou:2014pfa,
       Silva:2017uqg,Doneva:2017bvd,Antoniou:2017hxj,Kleihaus:2015aje}.
    
-   \item Infinitely steep gradients can form in the solution--that is
+   \item Some Horndeski gravity theories have solutions that
+      form infinitely steep gradients, that is
       \emph{shocks} or 
       \emph{caustics}\cite{Babichev:2016hys,
          deRham:2016ged, 
@@ -1476,7 +1485,7 @@ from several different kinds of issues:
          Pasmatsiou:2017vcw,
          Babichev:2017lrx,
          Lara:2021piy
-      } can form--even from smooth initial data. 
+      } can form, even from smooth initial data. 
       We note that shocks can form from perfect-fluid solutions
       to the Einstein equations, so strictly speaking this phenomenon
       is not entirely novel in the context of relativistic physics.
@@ -1819,6 +1828,7 @@ the theory in the first place.
 The model equation for shock formation is Burgers' 
 equation\cite{bateman_burgers,BURGERS1948171}
 \begin{align}
+   \label{eq:burgers_eqn}
    \partial_tu
    +
    \frac{1}{2}\partial_x\left(u^2\right)
@@ -1871,6 +1881,17 @@ where $\textbf{U}$ is the vector of conserved variables, $\textbf{F}^i$
 are the vector of flux functions, $\textbf{S}$ is the vector of
 source terms, and
 we have used the $3+1$ decomposition \eqref{eq:3p1_decomposition}.
+Once a set of equations has been written in conservative form,
+a numerical method typically finds a \emph{weak solution} to solve
+the equations through shocks.
+Conservation laws can have multiple weak solutions; picking the ``physical''
+one can require a detailed knowledge of the PDE properties
+of the equations of motion. As one example, for the Burgers
+equation (\eqref{eq:burgers_eqn}; or more generally the Euler
+equations of fluid dynamics) one typically introduces an
+\emph{entropy condition}, and the physical weak solution is then
+the entropy increasing solution\cite{2013numerical}.
+
 Some work has been done to successfully numerically evolve the 
 equations of motion for some quadratic Horndeski (K-essence) theories 
 using shock-capturing methods, including in the inspiral
@@ -1881,7 +1902,8 @@ This being said, other Horndeski theories may suffer a breakdown
 in hyperbolicity 
 (see Sec.~\ref{sec:failure_strong_hyperbolicity}),
 before a shock can form.
-This remains a relatively unexplored topic.
+The study of weak solutions to the Horndeski equations has not been
+thoroughly studied.
 
 %---------------------------------------------------------------------------
 \subsection{Perturbative solutions: secular instabilities, 
@@ -3024,11 +3046,13 @@ solutions to the Horndeski gravity theories.
 
  I thank  
  Aron Kovacs, Frans Pretorius,
- Harvey Reall, Leo Stein, Maxence Corman, and William East
+ Harvey Reall, Leo Stein, Maxence Corman, 
+ Nicolas Yunes, Ulrich Sperhake,  and William East
  for helpful discussions,
  and thank Abhishek Hegde, Aron Kovacs, 
- Tomas Galvez-Ghersi, Maxence Corman, and
- Tiago Fran\c{c}a for helpful comments on an earlier
+ Tomas Galvez-Ghersi, Maxence Corman, 
+ Tiago Fran\c{c}a, and William East
+ for helpful comments on an earlier
  draft of this article.
  While writing this article I was
  supported by STFC Research Grant No. ST/V005669/1.
