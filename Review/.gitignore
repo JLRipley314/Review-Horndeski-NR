@@ -1,0 +1,9 @@
+*.aux
+*.auxlock
+*.bbl
+*.blg
+*.dvi
+*.out
+*.pdf
+*.swp
+*.toc
