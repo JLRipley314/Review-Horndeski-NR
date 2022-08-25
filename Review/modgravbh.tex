@@ -99,13 +99,14 @@ could affect the classical dynamics of those objects\cite{Yunes:2013dva,
 Berti:2015itd,Foucart:2022iwu}. 
 As of the writing of this review,
 the gravitational wave observations of binary black holes and neutron
-stars by the LIGO/VIRGO/KAGRA collaboration have so far
+stars by the LIGO/Virgo/KAGRA collaboration have so far
 been found to be consistent with the predictions of 
 GR\cite{Yunes:2013dva,LIGOScientific:2016lio,LIGOScientific:2019fpa,
 LIGOScientific:2020tif,Krishnendu:2021fga}.
 Despite this,  
-as model-dependent tests of GR can allow for more precise tests of the theory,
-there is an extensive effort to model the dynamics of binary black holes
+as model-dependent tests of GR can allow for more precise tests of GR,
+there has been an extensive effort by many researchers
+to model the dynamics of binary black holes
 and neutron stars in \emph{modified} (non-GR) 
 theories of gravity\cite{Berti:2015itd,Foucart:2022iwu}.
 
@@ -138,10 +139,11 @@ possible to simulate binary black hole/neutron star
 mergers for most, if not all, of the Horndeski gravity theories of
 astrophysical and cosmological interest.
 
-In this review, we summarize current work on the local and global
-properties of the Horndeski gravity theories, along with numerical
+In this review, we summarize recent work on the local and global
+properties of solutions to
+the Horndeski gravity theories, along with numerical
 relativity studies of the Horndeski gravity theories in the
-context of binary black hole/neutron star merger.
+context of binary black hole/neutron star systems.
 Here we are purely concerned with the classical evolution
 of Horndeski gravity theories.
 We do not discuss
@@ -192,14 +194,14 @@ can break down in a way
 not seen in solutions to Einstein equations:
 shocks can form from smooth initial data\footnote{Albeit shocks can 
 form from smooth initial data 
-for more ``standard'' matter fields as well, such
+for more ``standard'' matter fields, such
 as for perfect fluids\cite{rezzolla2013relativistic}.},
 the equations of motion can lose their hyperbolic properties 
 in \emph{elliptic regions}, and curvature singularities
 may form (Sec.~\ref{sec:failure_global}).
 Elliptic regions and curvature singularities can form \emph{outside}
 of event horizons for some Horndeski theories.
-As both indicate a loss of predicitivity, those theories
+As both indicate a loss of predictivity, those theories
 have solutions that violate 
 weak cosmic censorship\cite{Ripley:2019hxt,Ripley:2019irj,
 Figueras:2020dzx,East:2021bqk} (the formation of elliptic
@@ -355,6 +357,8 @@ The equations of motion are given by
    &\equiv
    -
    \frac{1}{\sqrt{-g}}\frac{\delta S}{\delta\phi} 
+   =
+   0
    .
 \end{align}
 We state the full equations of motion in \ref{sec:eom_horndeski_gravity}.
@@ -393,11 +397,11 @@ the equations of motion for $4\partial ST$ gravity are second order
 in time and 
 spatial derivatives\cite{Zwiebach:1985uq,Gross:1986mw,
 Kovacs:2020pns,Kovacs:2020ywu}.
-In fact one can show that through field redefinitions the Gauss-Bonnet
-scalar term can be transformed into the 
+In fact one can show through field redefinitions that
+the Gauss-Bonnet scalar term can be transformed into the 
 form presented in 
 Eq.~\eqref{eq:general_horndeski_action}\cite{Kobayashi:2011nu}.
-This theory has attracted attention as for different couplings
+This theory has attracted attention as for some coupling functions
 $\beta\left(\phi\right)$, black holes can have 
 scalar hair\cite{Kanti:1995vq,
 Sotiriou:2013qea,
@@ -520,7 +524,7 @@ are well posed if\cite{evans2010partial}
 \end{enumerate}
    The last criteria is somewhat subtle, as continuity needs to be 
 defined with respect to function space.
-A theory may have a well-posed initial problem with respect
+A theory may have a well-posed IVP or BVP with respect
 to one function space may not be well posed in another\footnote{Typically 
 well-posedness for PDE in physics are defined with respect to
 a \emph{Sobolev space} such as $\mathbb{H}^2$,
@@ -571,13 +575,13 @@ They found that for all but a small subset of the theories
 the equations of motion were only weakly, but not strongly
 hyperbolic\cite{Papallo:2017qvl,Papallo:2017ddx}.
 Recently though, Kovacs and Reall have introduced the
-\emph{modified generalized harmonic (MGH) formulation}, in which 
+\emph{modified generalized harmonic} (MGH) formulation, in which 
 Horndeski equations of motion do form a 
 strongly hyperbolic system\cite{Kovacs:2020pns,Kovacs:2020ywu}, provided
 the Horndeski terms in the solution are \emph{weakly coupled}.
 Currently the MGH formulation is the
 only known strongly hyperbolic formulation for the 
-full Horndeski equations of motion.
+full, general Horndeski equations of motion.
 Moreover, there are other strongly hyperbolic formulations of
 specific Horndeski gravity theories;  
 see Sec.~\ref{sec:local_well_posedness_exact_eom}.
@@ -704,7 +708,7 @@ of GR, so that methods already used in numerical relativity can be
 directly applied.
 The main disadvantage of the naive-perturbative approach is the presence 
 for so-called \emph{secular instabilities}, which 
-spoil the accuracy of higher order perturbative solutions that are integrated
+can spoil the accuracy of higher order perturbative solutions that are integrated
 over sufficiently long time scales.
 
 In the perturbative approach,
@@ -777,9 +781,9 @@ appears at least at order $\epsilon$
 \end{align}
 This is easy to accomplish by
 for example setting the couplings constants to be $\sim \epsilon^{p_i}$.
-We note that this assumption is different from the
-weakly-coupled definition for the Horndeski theories stated in 
-Eq.~\eqref{eq:weak_coupling_conditions}. 
+We note that this is a distinct condition from
+a solution  to the Horndeski theories being weakly coupled
+(Eq.~\eqref{eq:weak_coupling_conditions}). 
 From Eqs.~\eqref{eq:perturbative_expansion},~\eqref{eq:small_coupling_approx},
 the principal part of the
 perturbative equations of motion \eqref{eq:perturbatve_tower}, 
@@ -863,15 +867,14 @@ From the Horndeski equations of motion and using the
 conditions \eqref{eq:coefficient_assumptions}, 
 we see that with $\phi^{(0)}=0$
 then there are no corrections to the linearly corrected
-Einstein (tensor) equations $E^{(g,1)}_{\mu\nu}$: the background is
-a solution to GR.
+Einstein (tensor) equations $E^{(g,1)}_{\mu\nu}$
+(assuming $V(0)=0$), in which case we can set 
+$g_{\mu\nu}^{(1)}=0$.
 The linearly corrected
 scalar equations $E^{(\phi,1)}$
 only contain $\phi^{(1)}$ (and not $g_{\mu\nu}^{(1)}$), so we
 can solve for the scalar field on a GR background.
 This approach is often called the \emph{decoupling approximation}.
-The linearly corrected equations remain the same as for GR; a
-consistent solution is to then set $g^{(1)}_{\mu\nu}=0$.
 The scalar field back-reaction on the metric appears at second order
 in the perturbative expansion\footnote{The correction to the
 metric \emph{will} generally 
@@ -879,8 +882,8 @@ occur at least at second order in the perturbative expansion,
 due to the presence of $X$ in $\mathcal{L}_1$.}.
 
 The naive-perturbative approach has been applied to some Horndeski 
-gravity theories gravity\cite{Witek:2018dmd,Okounkova:2019zep,Okounkova:2020rqw}.
-One of the most attractive features though of the formalism though is that
+gravity theories\cite{Witek:2018dmd,Okounkova:2019zep,Okounkova:2020rqw}.
+One of the most attractive features though of the formalism is that
 it can be applied to essentially any modified theory of gravity,
 including theories whose exact equations of motion may not 
 have well-posed initial value formulations, such
@@ -893,7 +896,7 @@ As discussed in Sec.~\ref{sec:perturbative_secular_instabilities},
 the presence of secularly growing
 error terms can complicate the interpretation of higher order
 perturbative solutions.
-In Sec.~\ref{sec:perturbative_secular_instabilities} 
+In that section 
 we discuss how the recently proposed
 \emph{dynamical renormalization group} could potentially address
 the problem of secular growth in perturbative numerical solutions.
@@ -1192,7 +1195,7 @@ and without damping terms
 the constraint violation could blow up exponentially in 
 time\cite{Pretorius:2004jg,Pretorius:2005gq,Pretorius:2006tp,East:2020hgw}.
 \footnote{Note that Eq.~\eqref{eq:basic_mgh_eom} is slightly different
-from Kovacs and Reall\cite{Kovacs:2020ywu}: here we use 
+from Kovacs and Reall\cite{Kovacs:2020ywu}. Here we use 
 $\nabla_{\gamma}C^{\delta}$ instead of
 $\partial_{\gamma}C^{\delta}$.
 We choose this form so that the MGH equations we introduce
@@ -1319,7 +1322,7 @@ diagonalizable, for example
 is diagonalizable 
 with eigenvectors $(1,0)$ and $(1,\epsilon)$.
 
-The work of Koavcs and Reall suggests that it should be possible
+The work of Kovacs and Reall suggests that it should be possible
 to generalize other formulations used to evolve the Einstein
 equations, for example the BSSN formulation of the equations of 
 motion\cite{Shibata:1995we,Baumgarte:1998te},
@@ -1449,15 +1452,16 @@ formulations of the Horndeski equations of motion which have already
 been used in numerical relativity simulations of binary black hole
 spacetimes\cite{East:2020hgw,Figueras:2021abd,East:2021bqk}.
 While the Horndeski theories have a well-posed initial 
-value problem in this regime, there is no guaranteed that a given
-weakly-coupled solution will remain weakly coupled at later times.
+value problem in this regime, there is no guarantee that 
+weakly coupled initial data 
+will remain weakly coupled at later times.
 
 We first recall that solutions to GR can break down at 
 \emph{spacetime singularities}\cite{hawking_ellis_1973}.
 \emph{Naked singularities} are not hidden by an event horizon.
 Naked singularities can be formed in Einstein gravity
 with a minimally coupled scalar
-fields\cite{10.2307/2118619}
+field\cite{10.2307/2118619}
 (and even in vacuum GR in four and higher\cite{Zhang:2015rsa} dimensions)
 starting from regular, low-curvature initial data.
 This being said, 
@@ -1468,7 +1472,7 @@ More generally, the
 \emph{weak cosmic censorship conjecture}\cite{1969NCimR...1..252P}
 posits that for generic initial data,
 solutions to GR coupled to ``standard'' matter fields (for example 
-minimally coupled scalar field matter) has well defined global
+minimally coupled scalar field matter) have well defined global
 solutions (e.g. the spacetime is geodesically complete)
 outside of trapped regions.
 While there remains no proof of this conjecture, no counterexample to it
@@ -1482,7 +1486,7 @@ boundary conditions.
 
 Depending on the theory being considered,
 exact solutions to a Horndeski theory can suffer
-from several different kinds of issues:
+from several different kinds of issues.
 \begin{enumerate}
    \item For some Horndeski gravity theories,
       the equations of motion can lose their hyperbolic character
@@ -1505,12 +1509,12 @@ from several different kinds of issues:
          Babichev:2017lrx,
          Lara:2021piy
       } can form, even from smooth initial data. 
-      We note that shocks can form from perfect-fluid solutions
+      We note that shocks can form in perfect-fluid solutions
       to the Einstein equations, so strictly speaking this phenomenon
       is not entirely novel in the context of relativistic physics.
       Moreover, provided the equations of motion can be formulated
-      as a conservative set of PDE, shock formation does not signal
-      the breakdown of the theory.
+      as a conservative set of PDE, shock formation does not necessarily 
+      signal the breakdown of the theory.
 
 \end{enumerate}
 Only strongly-coupled solutions to some Horndeski theories
@@ -1540,7 +1544,7 @@ kinds of behavior that have been observed in spherical
 gravitational collapse of several Horndeski gravity theories.
 All curvature singularities and sonic lines that have
 been found in Horndeski gravitational collapse are spacelike, 
-although given the difficult of numerically evolving near those
+although given the difficulty of numerically evolving near those
 points, new simulations may reveal that the boundary between
 regular and irregular evolution may be null. 
 A timelike boundary at a curvature singularity or sonic line
@@ -1704,14 +1708,12 @@ Because of this, there is generally no guarantee within Horndeski gravity that
 an elliptic region contained within an apparent horizon will
 remain within one for all times, although empirically
 this does appear to be the case for solutions that 
-are sufficiently weakly coupled exterior to the apparent horizon
+are sufficiently weakly coupled exterior to all black 
 hole horizons\cite{Ripley:2019irj,Ripley:2019aqj,
 Ripley:2020vpk,East:2020hgw,East:2021bqk,Figueras:2020dzx,Figueras:2021abd}
-(as the speed of propagation of the scalar
-field $\phi$ may be less or greater than the local speed of light,
-by ``apparent horizon'' we mean the outermose trapped region for all
-of the characteristic speeds; for more discussion see for example
-\refcite{Benkel:2018qmh}).
+(for a recent discussion about different notions of horizons in the
+Horndeski gravity theories, see
+\refcite{Reall:2021voz}).
 Another subtlety is that the characteristic speeds of some degrees of freedom
 in Horndeski gravity can travel faster than than the speed of light
 as determined by the spacetime lightcones\cite{Akhoury:2011hr},
@@ -1740,7 +1742,7 @@ In the strongly coupled regime,
 the hyperbolicity of some Horndeski theories can fail in a more
 dramatic way: the equations of motion can develop fundamentally
 elliptic degrees of freedom.
-More formally, the equations of motion for many Horndeski gravity
+More formally, the equations of motion for many Horndeski gravity theories
 form a system of \emph{mixed-type} 
 partial differential equations.
 The mixed-type property of the Horndeski equations of motion sets
@@ -1775,8 +1777,8 @@ which respectively are
    0
    .
 \end{align}
-These equations are hyperbolic when $x<0$, parabolic when $x=0$,
-and elliptic when $x>0$.
+These equations are hyperbolic when $x<0$, 
+parabolic when $x=0$, and elliptic when $x>0$.
 The characteristic speeds in the Keldysh equation
 blow up before reaching the elliptic region; thus instabilities may appear 
 in a code before reaching the elliptic region because of the 
@@ -1839,11 +1841,6 @@ equations of motion beyond the sonic line into the elliptic region.
 These solutions are likely to be of little physical interest though,
 as the formation of the sonic line essentially signals the breakdown
 of the weak-coupling regime of the solution at hand.
-As the Horndeski theories are mostly taken as describing
-\emph{effective} corrections to the Einstein equations
-the formation of a sonic line can be synonymous as a breakdown of
-the gradient-expansion/effective field theory reasoning for using
-the theory in the first place.
 
 %---------------------------------------------------------------------------
 \subsection{Exact equations: shock/caustic formation
@@ -1912,7 +1909,7 @@ Conservation laws can have multiple weak solutions; picking the ``physical''
 one can require a detailed knowledge of the PDE properties
 of the equations of motion. As one example, for the Burgers
 equation (\eqref{eq:burgers_eqn}; or more generally the Euler
-equations of fluid dynamics) one typically introduces an
+equations of fluid dynamics) one can introduce an
 \emph{entropy condition}, and the physical weak solution is then
 the entropy increasing solution\cite{2013numerical}.
 
@@ -1937,8 +1934,8 @@ and the numerical dynamical renormalization group
 The main technical challenge to using naive perturbation theory
 (Sec.~\ref{sec:perturbative_well_posedness})
 for long-time evolution
-is that the errors induced by using this
-can grow secularly in time\cite{bender2013advanced}.
+is that in this approach, 
+errors can grow secularly in time\cite{bender2013advanced}.
 The problem can be illustrated with the following perturbed
 simple harmonic oscillator:
 \begin{align}
@@ -2002,7 +1999,7 @@ renormalization group}.
 This is because their approach allows for the renormalization
 of parameters for theories whose (background) 
 solution may only be found numerically.
-We note that the application of the (D)RG formally requires the full
+We note that the application of the DRG formally requires the full
 solution to be described by 
 a finite dimensional attractor manifold in parameter space.
 The Einstein (and Horndeski) equations of motion are partial differential
@@ -2279,7 +2276,7 @@ in Sec.~\ref{eq:elliptic_character_constraints}.
 \label{eq:elliptic_character_constraints}
 }
 Here we show in more detail how the constraints can be written as
-a set of elliptic equations for weakly-coupled solution
+a set of elliptic equations for weakly coupled solutions
 by working with the conformal
 transverse-traceless (CTT) decomposition\cite{1979sgrr.work...83Y}.
 We will only consider the principal part of the
@@ -2335,7 +2332,7 @@ with a transverse decomposition
    ,
 \end{align}
 where $\tilde{L}$ is the \emph{longitudinal operator}
-(also called the \emph{vector gradient}), 
+(also called the \emph{vector gradient}) and 
 $\tilde{A}_{(TT)ij}$ is a transverse-traceless tensor:
 $\tilde{\gamma}^{ij}\tilde{A}_{(TT)ij}=\tilde{D}^i\tilde{A}_{(TT)ij}=0$.
 As is the case in GR with a minimally coupled scalar field, 
@@ -2359,9 +2356,6 @@ and the constraints will determine the degrees of freedom
    W_i
    .
 \end{align}
-In investigating the PDE character of the equations of motion,
-we are only concerned with showing that the principal part has
-all real eigenvalues.
 
 We first study the Hamiltonian constraint:
 \begin{align}
@@ -2413,7 +2407,7 @@ $\mathtt{P}\left[R_{\gamma_1\gamma_2}{}^{\delta_1\delta_2}\right]
 \to
 \mathtt{P}\left[{}^{(3)}R_{i_1i_2}{}^{j_1j_2}\right]
 $,
-where $\delta^{i\cdots}_{j\cdots}$ are the Kronecker delta tensors
+and $\delta^{i\cdots}_{j\cdots}$ are the Kronecker delta tensors
 induced on the spatial surface $\Sigma$.
 Continuing to work in adapted coordinates, 
 under the conformal decomposition we see that
@@ -2696,8 +2690,8 @@ initial data for $4\partial ST$ gravity. While this only contains
 a particular subset of Horndeski gravity, it does contain the term
 that causes scalar ``hairy'' black holes (namely, the
 Gauss-Bonnet coupling $\beta\left(\phi\right)\mathcal{G}$),
-and thus it is perhaps the most interesting Horndeski theory to study
-binary black hole mergers.
+so it is perhaps the most interesting Horndeski theory to study
+in the context of binary black hole systems.
 His construction relies on the linearity of the momentum
 constraint for the theory when it is written in terms of the
 canonical conjugate momentum for the tensor and scalar
@@ -2722,17 +2716,20 @@ Eq.~\eqref{eq:canonical_momenta_4dst}\cite{Kovacs:2021lgk}.}
    .
 \end{align}
 Kovacs' prescription for puncture initial data is to
-then decompose $\pi^{ij}$ in the same as the extrinsic curvature is
-decomposed, that is into a trace and tracefree parts
+then decompose $\pi^{ij}$ and $\pi_{\phi}$ in the following way: 
 \begin{align}
    \tilde{\pi}_{ij}
-   =
+   \equiv
    \psi^2\left(
       \frac{1}{\sqrt{h}}\pi_{ij}
       -
       \frac{1}{3}h^{kl}\pi_{kl}
       h_{ij}
    \right)
+   ,\qquad
+   \tilde{\pi}_{\phi}
+   \equiv
+   \psi^6\frac{\pi_{\phi}}{\sqrt{h}}
    .
 \end{align}
 Then the trace is set to zero, and the tracefree part is
@@ -2813,7 +2810,7 @@ of (binary) neutron stars, which can exhibit interesting solutions such as
 Some work on black holes in these theories
 has been performed in spherical symmetry as 
 well\cite{Scheel:1994yr,Scheel:1994yn}.
-In particular, much of numerical work for scalar-tensor
+In particular, much of the numerical work on scalar-tensor
 theories has focused on stellar collapse of
 a spherically symmetric scalarized star to a black hole, as in the process
 of forming a black hole the star must shed a large amount
@@ -2836,17 +2833,16 @@ of scalarized stars has been done for scalar-tensor gravity theories.
 %---------------------------------------------------------------------------
 \subsection{Quadratic Horndeski gravity
 \label{sec:quadratic_horndeski_numerical}}
-The quadratic Horndeski theories present a class of modified gravity
-theories that can be used to model 
+The quadratic Horndeski theories have been used to construct models of 
 dark energy/inflation\cite{Armendariz-Picon:2000nqq,
 Armendariz-Picon:2000ulo} 
-and that have not been observationally 
-ruled-out\cite{Baker:2017hug,Creminelli:2018xsv,Creminelli:2019kjy}.
+that have not been observationally 
+ruled out\cite{Baker:2017hug,Creminelli:2018xsv,Creminelli:2019kjy}.
 Moreover solutions to 
-variants of the theory are claimed to 
+variants of the theory can 
 exhibit a screening mechanism\cite{Joyce:2014kja} called
 \emph{k-mouflage}\cite{Babichev:2009ee}, whereby
-the spacetime geometry around a scalarized black hole
+the spacetime geometry around a scalarized star 
 can closely resemble the vacuum exterior of an unscalarized star.
 Numerical work on the quadratic gravity theories has focused
 mostly on investigating the well-posedness of these theories
@@ -2857,8 +2853,7 @@ formation of shocks and sonic lines in these theories,
 and the dynamics of the theory during the onset of
 k-mouflage\cite{terHaar:2020xxb,
 Bezares:2021yek,Dima:2021pwx}, 
-which potentially requires the violation of
-the weak-coupling limit. 
+which can move the solution to the strongly-coupled regime. 
 Asymptotically flat black holes cannot support stable scalar hair 
 (outside of supper-radiance)\cite{Graham:2014mda},
 so much of the attention has been focused on (neutron) star solutions.
@@ -2871,7 +2866,7 @@ made use of high resolution shock capturing methods.
 In that reference, the authors found certain functional forms
 of the theory that appears to allow 
 for evolution without the formation
-of elliptic regions, even in the strong-field regime.
+of elliptic regions, even in the strongly coupled regime.
 %---------------------------------------------------------------------------
 \subsection{Cubic Horndeski gravity
 \label{sec:cubic_horndeski_numerical}}
@@ -2894,7 +2889,7 @@ for cubic Horndeski gravity can dynamically form
 a sonic line and elliptic region outside of
 a black hole horizon\cite{Figueras:2020dzx}.
 This loss of hyperbolicity is located in the scalar sector of the theory.
-Despite the loss of hyperbolicity in the strong field regime,
+Despite the loss of hyperbolicity in the strongly coupled regime,
 the theory did remain hyperbolic in regions where the solution
 remained safely in the weakly-coupled regime.
 As the authors used CCZ4 puncture-type evolution\cite{Andrade:2021rbd}, 
@@ -2981,15 +2976,15 @@ For example, in ``shift-symmetric scalar Gauss-Bonnet gravity''
 $V=\alpha=0$ and $\beta=\lambda\phi$, where $\lambda$ is
 a constant. This theory has scalar-hairy black holes,
 while neutron stars in the theory remain relatively less
-hairy, which makes binary black hole mergers a promising place
-to study and constrain this theory\cite{Yagi:2015oca}.
+hairy, so binary black hole systems may provide the strongest
+constraints on these theories\cite{Yagi:2015oca}.
 This theory has been extensively studied,
 using the order reduction approach\cite{Benkel:2016rlz,Benkel:2016kcq,
 Witek:2018dmd,Okounkova:2019zep,Okounkova:2020rqw},
 in the static limit\cite{Sotiriou:2014pfa,Sullivan:2020zpf}, 
 and restricted to spherically
 symmetric spacetimes\cite{Ripley:2019irj,Ripley:2019aqj}.
-The first fully nonlinear simulations of this theory in binary
+The first fully nonlinear simulations of this theory of binary
 black hole spacetimes were completed using the MGH 
 formulation, with vacuum GR black hole initial data\cite{East:2020hgw}.
 
@@ -3048,12 +3043,10 @@ less studied, at least together with nontrivial values of $\beta$.
 We have reviewed the status of numerically constructing black hole
 solutions in Horndeski theories of gravity.
 We discussed exact and perturbative
-methods that render the equations of motion
-as a well-posed system of evolution (hyperbolic) equations,
-and the constraint equation as a system of elliptic partial
-differential equations, at least for so-called \emph{weakly-coupled} solutions.
+methods that give well-posed formulations of the evolution and constraint
+equations, at least for so-called \emph{weakly-coupled} solutions.
 Both the exact and perturbative approaches introduce new difficulties
-not encountered in the simulations of the Einstein equations. 
+not encountered in numerical solutions of the Einstein equations. 
 Exact solutions may suffer from the formation of shocks or
 a loss of hyperbolicity, while perturbative solutions must contend
 with the secular growth of errors in time.
@@ -3062,7 +3055,7 @@ especially in the context of binary black hole and neutron star mergers,
 and much work remains to properly understand how to (numerically)
 solve and interpret the equations of motion for these theories.
 Nevertheless, there are several promising ways to extend numerical relativity  
-methods to solve for the strong gravity, weakly coupled 
+methods to construct strong gravity, weakly coupled 
 solutions to the Horndeski gravity theories.
 
 %===========================================================================
@@ -3094,7 +3087,7 @@ respectively. These were first derived by Horndeski\cite{horndeski_paper}.
 We have checked the equations in Papallo\cite{Papallo:2017ddx}
 (See also Tanahashi and Ohashi\cite{Tanahashi:2017kgn}
 for the ``shift-symmetric'' Horndeski equations of motion, which are
-when the $\mathcal{G}_i$ do not depend on $\phi$)
+when the $\mathcal{G}_i$ only depend on derivatives of $\phi$)
 using the \texttt{xTensor}\cite{xAct,martin2008xperm,Brizuela:2008ra} 
 package for \texttt{Mathematica}.
 Due to our different normalization for $R$, there is a
@@ -3469,7 +3462,7 @@ We consider systems of first order PDEs that take the form
 where $I,J,..=1,...,N$ index the $N$ 
 equations of motion and dynamical fields $v^J$,
 $i,j,...=1,...,n$ index the $n$ spatial coordinates, 
-and $\alpha,\beta,...=0,...,$ index
+and $\alpha,\beta,...=0,...,n$ index
 the $n+1$ spacetime coordinates.
 We note that through field redefinitions, we can write
 systems of second order equations that are linear in $\partial_0^2v^J$
@@ -3666,7 +3659,7 @@ then \eqref{eq:strong_hyperbolicity_eigenvectors} is satisfied
 since $\xi_i$ is varied over a compact set
 (recall we impose that $\xi_i$ has unit norm).
 Sometimes the eigenvectors are call 
-''eigenfields''\cite{alcubierre2008introduction}.
+``eigenfields''\cite{alcubierre2008introduction}.
 
 Before continuing, we mention another (equivalent) definition of strong
 hyperbolicity that is commonly used 
@@ -3725,13 +3718,12 @@ have a finite Sobolev norm
    \sqrt{
       \sum_{k=0}^s
       \int_{\mathbb{R}^3}d^3x 
-      \left|\partial_i^{\Xi}v\right|^2
+      \left|\partial_i^{K}v\right|^2
    }
    ,
 \end{align}
-where $\partial_i^{\Xi}$ schematically stands for the sum over all
-spatial derivatives of order $k$ 
-(this notation follows Ref.~\refcite{evans2010partial}).
+where $\partial_i^{K}$ schematically stands for the sum over all
+spatial derivatives of order $k$. 
 
 In order words, for sufficiently regular initial data, a strongly hyperbolic
 system of PDE has a well-posed IVP.
@@ -3879,7 +3871,7 @@ dimensions are
 \end{align}
 \end{subequations}
 Locally we can transform any hyperbolic, parabolic, and elliptic
-equation to take that forms \eqref{eq:canonical_form}
+equation to take the forms \eqref{eq:canonical_form}
 through coordinate transformations.
 
 The canonical examples of mixed-type PDE are the Tricomi
@@ -3972,7 +3964,6 @@ regularity of solutions on the sonic line\cite{otway2015elliptic}.
 \subsection{Systems of PDE in higher dimensions
    \label{sec:systems_higher_dimensions_mixed}
 }
-We next consider systems of PDE. 
 We consider systems of first order PDE of the form 
 Eq.~\eqref{eq:system_first_order_pde}.
 The characteristic equation is (see \ref{sec:review_hyperbolicity}) 
@@ -3992,7 +3983,6 @@ the system \eqref{eq:system_first_order_pde} is
 all real roots for all possible solutions over the entire domain
    \item \emph{elliptic} if the characteristic equation
 has all imaginary roots for all possible solutions over the entire domain.
-Finally we the system \eqref{eq:system_first_order_pde},
    \item \emph{mixed-type} PDE if the roots can be real or
 imaginary depending on the solution/where in the domain you are
 \end{enumerate}
@@ -4180,7 +4170,7 @@ degree of freedom is hyperbolic or elliptic
    \end{cases}
    .
 \end{align}
-If $K''=0$, then this is always positive definite. For example
+If $K''=0$, then this is always positive semidefinite. For example
 when $K=X$, the theory is always hyperbolic.
 Note that the ``constraint'' degrees of freedom are always
 hyperbolic (they satisfy $\xi_0=0$).
@@ -4368,7 +4358,7 @@ we see that
 \end{align}
 \end{subequations}
 From the fact that the equations of motion are derived from an action,
-the principal symbol is a symmetric matrix 
+the principal symbol is a symmetric matrix\cite{Papallo:2017qvl} 
 \begin{subequations}
 \begin{align}
    P_{(gg)}^{\mu\nu\rho\sigma\alpha\beta}
