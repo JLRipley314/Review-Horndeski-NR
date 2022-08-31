@@ -45,7 +45,7 @@ University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, USA
 \\
 \;
 \\
-jr860@cam.ac.uk}
+ripley@illinois.edu}
 
 \maketitle
 
@@ -191,7 +191,7 @@ and the constraint equations can be recast as a set of elliptic
 partial differential equations (Sec.~\ref{sec:constructing_initial_data}).
 For \emph{strongly-coupled} solutions, some of the Horndeski theories 
 can break down in a way  
-not seen in solutions to Einstein equations:
+not seen in solutions to the Einstein equations:
 shocks can form from smooth initial data\footnote{Albeit shocks can 
 form from smooth initial data 
 for more ``standard'' matter fields, such
@@ -524,7 +524,7 @@ are well posed if\cite{evans2010partial}
 \end{enumerate}
    The last criteria is somewhat subtle, as continuity needs to be 
 defined with respect to function space.
-A theory may have a well-posed IVP or BVP with respect
+A theory that has a well-posed IVP or BVP with respect
 to one function space may not be well posed in another\footnote{Typically 
 well-posedness for PDE in physics are defined with respect to
 a \emph{Sobolev space} such as $\mathbb{H}^2$,
@@ -564,8 +564,8 @@ in more detail in Sec.~\ref{sec:perturbative_well_posedness}.
 Up until recently, it was unclear if it was possible to
 formulate a hyperbolic reduction of the full, 
 general Horndeski equations of motion.
-Given the earlier success of the generalized formulation in evolving
-the Einstein 
+Given the earlier success of the generalized harmonic
+formulation in evolving the Einstein 
 equations\cite{Garfinkle:2001ni,Pretorius:2004jg,Pretorius:2005gq,Pretorius:2006tp}
 (under which the Einstein equations are strongly hyperbolic\cite{Friedrich:1996hq})
 Papallo and Reall investigated the hyperbolicity of the
@@ -769,8 +769,9 @@ schematically take the form
    \right]
    =
    0
-   \nonumber
-   .
+   ,
+   \nonumber\\
+   &\qquad\qquad\qquad\qquad\qquad\qquad\vdots
 \end{align}
 Moreover, we assume that each Horndeski term (beyond $\mathcal{L}_1$)
 appears at least at order $\epsilon$
@@ -783,7 +784,7 @@ This is easy to accomplish by
 for example setting the couplings constants to be $\sim \epsilon^{p_i}$.
 We note that this is a distinct condition from
 a solution  to the Horndeski theories being weakly coupled
-(Eq.~\eqref{eq:weak_coupling_conditions}). 
+(see Eq.~\eqref{eq:weak_coupling_conditions}). 
 From Eqs.~\eqref{eq:perturbative_expansion},~\eqref{eq:small_coupling_approx},
 the principal part of the
 perturbative equations of motion \eqref{eq:perturbatve_tower}, 
@@ -872,7 +873,7 @@ Einstein (tensor) equations $E^{(g,1)}_{\mu\nu}$
 $g_{\mu\nu}^{(1)}=0$.
 The linearly corrected
 scalar equations $E^{(\phi,1)}$
-only contain $\phi^{(1)}$ (and not $g_{\mu\nu}^{(1)}$), so we
+then only contain $\phi^{(1)}$ (and not $g_{\mu\nu}^{(1)}$), so we
 can solve for the scalar field on a GR background.
 This approach is often called the \emph{decoupling approximation}.
 The scalar field back-reaction on the metric appears at second order
@@ -1518,7 +1519,7 @@ from several different kinds of issues.
 
 \end{enumerate}
 Only strongly-coupled solutions to some Horndeski theories
-have been found to have these solutions,
+have been found to have these features,
 although there has been no exhaustive search of all solutions
 to all Horndeski theories.
 There is some numerical evidence that all of the above listed
@@ -1526,7 +1527,7 @@ phenomena can form from initially weakly-coupled initial data.
 This being said,
 researchers have numerically evolved binary black hole spacetimes
 in quadratic Horndeski gravity, cubic Horndeski gravity,
-and in ESGB gravity (both theories
+and in ESGB gravity (the last two theories
 which can form naked elliptic regions in 
 gravitational collapse\cite{Ripley:2019hxt,
 Ripley:2019irj,Bernard:2019fjb,Figueras:2020dzx,Lara:2021piy}) 
@@ -2067,7 +2068,7 @@ operator on the spatial hypersurface with $D_i$, and the
 induced Christoffel symbols and tensors with a ${}^{(3)}$ superscript.
 
 The constraint equations can be cast into a generalization
-of the ``Hamiltonian'' and ``momentum'' constraints of GR.
+of the \emph{Hamiltonian} and \emph{momentum} constraints of GR.
 For a given $\Sigma$, we let $n^{\mu}$ be the unit timelike future-directed
 null vector orthogonal to $\Sigma$.
 We can then write the spacetime metric as 
@@ -2282,7 +2283,7 @@ transverse-traceless (CTT) decomposition\cite{1979sgrr.work...83Y}.
 We will only consider the principal part of the
 constraint equations, as it is the part that determines the
 character of the constraints as a set of PDE.
-Kovacs\cite{Kovacs:2021lgk} has shown for $4\partial ST$ gravity, 
+Kovacs\cite{Kovacs:2021lgk} has shown that for $4\partial ST$ gravity, 
 for a weakly coupled solution under a 
 CTT decomposition (and for a conformal thin sandwich decomposition)
 the constraints formed an elliptic set of PDE. 
@@ -2659,7 +2660,8 @@ be superposed for a collections of black holes
    ,
 \end{align}
 where $r_{(n)}\equiv\left|{\bf x} - {\bf c}_{(n)}\right|$, the
-Euclidean distance from the $n^{th}$ puncture.
+Euclidean distance from the $n^{th}$ puncture
+(${\bf c}_{(n)}$ are at the black hole puncture locations).
 With puncture initial data, we still need to solve the Hamiltonian
 constraint numerically, which forms an elliptic equation for $\psi$.
 This can be solved more easily by making the following field
@@ -2678,7 +2680,6 @@ redefinition\cite{Brandt:1997tf}
    \sum_{n}\frac{m_{(n)}}{2r_{(n)}}
    ,
 \end{align}
-where the ${\bf c}_{(n)}$ are at the black hole puncture locations.
 That is, we analytically remove the ``singular'' 
 term from the conformal factor.
 This renders the solution $\psi$ to be regular 
@@ -3040,8 +3041,8 @@ less studied, at least together with nontrivial values of $\beta$.
 %===========================================================================
 \section{Final remarks\label{sec:final_remarks}}
 
-We have reviewed the status of numerically constructing black hole
-solutions in Horndeski theories of gravity.
+We have reviewed the status of numerically constructing 
+black hole/neutron star solutions in Horndeski theories of gravity.
 We discussed exact and perturbative
 methods that give well-posed formulations of the evolution and constraint
 equations, at least for so-called \emph{weakly-coupled} solutions.
@@ -3658,7 +3659,7 @@ If the eigenvectors depend continuously on $\xi_i$,
 then \eqref{eq:strong_hyperbolicity_eigenvectors} is satisfied
 since $\xi_i$ is varied over a compact set
 (recall we impose that $\xi_i$ has unit norm).
-Sometimes the eigenvectors are call 
+Sometimes the eigenvectors are called 
 ``eigenfields''\cite{alcubierre2008introduction}.
 
 Before continuing, we mention another (equivalent) definition of strong
@@ -4899,7 +4900,7 @@ tensor and $\epsilon^{\mu\nu\gamma\delta}$ is the Levi-Cevita tensor.
 Besides using $X$ instead of $\left(\nabla\phi\right)^2$, the action
 \eqref{eq:all_next_terms_4dst} differs from Weinberg's\cite{Weinberg:2008hq}
 Eq.~(3) in that we use the Gauss-Bonnet scalar $\mathcal{R}_{GB}$ instead
-of the contraction of the Weyl scalar:
+of the contraction of the Weyl tensor:
 $C_{\mu\nu\alpha\beta}C^{\mu\nu\alpha\beta}$
 (the Pontryagin density can be written equivalently in terms
 of contractions of the Weyl tensor\cite{Grumiller:2007rv}).
