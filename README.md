@@ -10,4 +10,4 @@ please let me know!
 
 # Contact #
 
-Justin Ripley: lloydripley [at] gmail [dot] com
+Justin Ripley: ripley[at]illinois[dot]edu 

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1005426,      29964]
-NotebookOptionsPosition[    983600,      29601]
-NotebookOutlinePosition[    984091,      29619]
-CellTagsIndexPosition[    984048,      29616]
+NotebookDataLength[   1005790,      29968]
+NotebookOptionsPosition[    983970,      29605]
+NotebookOutlinePosition[    984455,      29623]
+CellTagsIndexPosition[    984412,      29620]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,12 +30,13 @@ Horndeski gravity\
 
 Cell["\<\
 Justin L. Ripley, 2022
-Contact: jr860[at]cam[dot]ac[dot]uk
+Contact: ripley[at]illinois[dot]edu
 
 This makes use of the xAct suite of tensor packages, see http://www.xact.es/\
 \>", "Text",
- CellChangeTimes->{{3.850904056947226*^9, 
-  3.850904143085487*^9}},ExpressionUUID->"d2de440b-22f5-46d0-ae10-\
+ CellChangeTimes->{{3.850904056947226*^9, 3.850904143085487*^9}, {
+  3.871558376855814*^9, 
+  3.871558383243271*^9}},ExpressionUUID->"d2de440b-22f5-46d0-ae10-\
 40cf9cd7048a"],
 
 Cell[BoxData[
@@ -3193,9 +3194,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -3358,9 +3359,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -3505,9 +3506,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -3631,9 +3632,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{
@@ -4005,9 +4006,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -4110,9 +4111,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{{3.850921806143008*^9, 3.850921814714665*^9}, 
@@ -4636,9 +4637,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -4761,9 +4762,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -4893,9 +4894,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -5025,9 +5026,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -5158,9 +5159,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -5347,9 +5348,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -5506,9 +5507,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -5644,9 +5645,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{
@@ -6691,9 +6692,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -6839,9 +6840,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -6966,9 +6967,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -7090,9 +7091,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -7266,9 +7267,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{"2", " ", 
@@ -7408,9 +7409,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -7558,9 +7559,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -7712,9 +7713,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{"2", " ", 
@@ -7854,9 +7855,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{"2", " ", 
@@ -8004,9 +8005,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{"2", " ", 
@@ -8154,9 +8155,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -8305,9 +8306,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{"2", " ", 
@@ -8455,9 +8456,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -8605,9 +8606,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{"2", " ", 
@@ -8755,9 +8756,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -8906,9 +8907,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -9077,9 +9078,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -9239,9 +9240,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -9410,9 +9411,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -9572,9 +9573,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -9705,9 +9706,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -9855,9 +9856,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -10005,9 +10006,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{
@@ -10616,9 +10617,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{"2", " ", 
@@ -10740,9 +10741,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{{3.850984359167079*^9, 3.850984372164736*^9}, 
@@ -11190,6 +11191,7 @@ Cell[BoxData[
                     Offset[0.]}}}],
                    FontSize->Rational[39, 4]]}
                 },
+                
                 GridBoxAlignment->{
                  "Columns" -> {{Center}}, "Rows" -> {{Center}}},
                 GridBoxSpacings->{"Columns" -> {
@@ -12859,9 +12861,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -13018,9 +13020,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -13170,9 +13172,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -13303,9 +13305,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -13443,9 +13445,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -13606,9 +13608,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -13738,9 +13740,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -13875,9 +13877,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -14038,9 +14040,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -14171,9 +14173,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -14308,9 +14310,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    RowBox[{"(", 
@@ -14445,9 +14447,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}], " ", 
    InterpretationBox[
@@ -14688,9 +14690,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -14843,9 +14845,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -15006,9 +15008,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -15160,9 +15162,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -15314,9 +15316,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -15469,9 +15471,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -15632,9 +15634,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -15795,9 +15797,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -15958,9 +15960,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -16144,9 +16146,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -16307,9 +16309,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -16470,9 +16472,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -16632,9 +16634,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -16795,9 +16797,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -16957,9 +16959,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -17119,9 +17121,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -17282,9 +17284,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -17445,9 +17447,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -17607,9 +17609,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -17770,9 +17772,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -17933,9 +17935,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -18108,9 +18110,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -18283,9 +18285,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -18458,9 +18460,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -18641,9 +18643,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -18824,9 +18826,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -19007,9 +19009,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -19172,9 +19174,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -19335,9 +19337,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "-", 
   RowBox[{
@@ -19498,9 +19500,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}], "+", 
   RowBox[{
@@ -19661,9 +19663,9 @@ Cell[BoxData[
           FontColor->RGBColor[1, 0, 0]]}],
         ShowAutoStyles->False,
         AutoSpacing->False],
-       xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+       xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-          $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+           $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
           $CellContext`Phi[]]],
        Editable->False]}]}], "]"}]}]}]], "Output",
  CellChangeTimes->{
@@ -27457,14 +27459,15 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
       RowBox[{
-       FractionBox[
-        RowBox[{
+       RowBox[{
+        RowBox[{"(", 
          RowBox[{
           RowBox[{
            RowBox[{
-            RowBox[{"scalar5xAct", "+", "scalar5Papallo"}], "//", 
-            "EinsteinToRicci"}], "//", "Expand"}], "//", "ContractMetric"}], "//",
-          "ToCanonical"}], 
+            RowBox[{
+             RowBox[{"scalar5xAct", "+", "scalar5Papallo"}], "//", 
+             "EinsteinToRicci"}], "//", "Expand"}], "//", "ContractMetric"}], 
+          "//", "ToCanonical"}], ")"}], "/", 
         RowBox[{
          SuperscriptBox[
           InterpretationBox[
@@ -27551,7 +27554,7 @@ Cell[BoxData[
 -$CellContext`b] $CellContext`CD[$CellContext`a][
                 $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
                $CellContext`Phi[]]],
-            Editable->False]}]}], "]"}]], "//", "Expand"}], "//", 
+            Editable->False]}]}], "]"}]}], "//", "Expand"}], "//", 
       "ContractMetric"}], "//", "ContractCurvature"}], "//", "ToCanonical"}], 
    "//", "Expand"}]}]], "Input",
  CellChangeTimes->{{3.8513399933351593`*^9, 3.851339995831079*^9}, {
@@ -28787,6 +28790,7 @@ Cell[BoxData[
                     Offset[0.]}}}],
                    FontSize->Rational[39, 4]]}
                 },
+                
                 GridBoxAlignment->{
                  "Columns" -> {{Center}}, "Rows" -> {{Center}}},
                 GridBoxSpacings->{"Columns" -> {
@@ -29322,9 +29326,9 @@ Cell[BoxData[
          FontColor->RGBColor[1, 0, 0]]}],
        ShowAutoStyles->False,
        AutoSpacing->False],
-      xAct`xTensor`Scalar[$CellContext`metric[-$CellContext`a, \
+      xAct`xTensor`Scalar[($CellContext`metric[-$CellContext`a, \
 -$CellContext`b] $CellContext`CD[$CellContext`a][
-         $CellContext`Phi[]] $CellContext`CD[$CellContext`b][
+          $CellContext`Phi[]]) $CellContext`CD[$CellContext`b][
          $CellContext`Phi[]]],
       Editable->False]}]}], "]"}], " ", 
   RowBox[{"(", 
@@ -29599,11 +29603,11 @@ $CellContext`b, -$CellContext`c]],
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{768., 841.8},
-WindowMargins->{{Automatic, -768}, {Automatic, 22.2}},
+WindowSize->{768., 677.4},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
 TaggingRules->{
  "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
-FrontEndVersion->"12.1 for Linux x86 (64-bit) (June 19, 2020)",
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"f8db15e5-7cfe-4dbc-ab2e-e33a32e9e94b"
 ]
@@ -29620,347 +29624,347 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 245, 6, 222, "Title",ExpressionUUID->"feec356c-c511-4030-b7bd-8ca6e28a40b0"],
-Cell[828, 30, 286, 8, 104, "Text",ExpressionUUID->"d2de440b-22f5-46d0-ae10-40cf9cd7048a"],
-Cell[1117, 40, 130, 2, 29, "Input",ExpressionUUID->"babcf4cf-004f-4e15-86bc-8af46e7b45c8"],
+Cell[828, 30, 335, 9, 104, "Text",ExpressionUUID->"d2de440b-22f5-46d0-ae10-40cf9cd7048a"],
+Cell[1166, 41, 130, 2, 29, "Input",ExpressionUUID->"babcf4cf-004f-4e15-86bc-8af46e7b45c8"],
 Cell[CellGroupData[{
-Cell[1272, 46, 226, 4, 53, "Subtitle",ExpressionUUID->"dba2316a-650a-447d-ad3b-a721def546fb"],
+Cell[1321, 47, 226, 4, 53, "Subtitle",ExpressionUUID->"dba2316a-650a-447d-ad3b-a721def546fb"],
 Cell[CellGroupData[{
-Cell[1523, 54, 167, 3, 54, "Subsection",ExpressionUUID->"51ef139f-e026-4c3d-97f6-920784acb2e4"],
-Cell[1693, 59, 971, 23, 111, "Input",ExpressionUUID->"224dab42-df91-4297-a2ad-14cc2a6fbee5"]
+Cell[1572, 55, 167, 3, 54, "Subsection",ExpressionUUID->"51ef139f-e026-4c3d-97f6-920784acb2e4"],
+Cell[1742, 60, 971, 23, 111, "Input",ExpressionUUID->"224dab42-df91-4297-a2ad-14cc2a6fbee5"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[2701, 87, 168, 3, 38, "Subsection",ExpressionUUID->"e4b3ab10-9ac0-4937-b507-f583f9ca6cc2"],
+Cell[2750, 88, 168, 3, 38, "Subsection",ExpressionUUID->"e4b3ab10-9ac0-4937-b507-f583f9ca6cc2"],
 Cell[CellGroupData[{
-Cell[2894, 94, 205, 3, 29, "Input",ExpressionUUID->"e19a855d-653a-4751-89e4-add4301a39e0"],
+Cell[2943, 95, 205, 3, 29, "Input",ExpressionUUID->"e19a855d-653a-4751-89e4-add4301a39e0"],
 Cell[CellGroupData[{
-Cell[3124, 101, 570, 10, 23, "Print",ExpressionUUID->"ba9a3b84-8916-4bc4-b1e8-e77842c037ff"],
-Cell[3697, 113, 842, 18, 23, "Print",ExpressionUUID->"f8edaaf1-dbd5-4d7e-a9d6-4490053c9459"],
-Cell[4542, 133, 591, 10, 23, "Print",ExpressionUUID->"78d3f677-80d5-43a6-9aeb-6ae0ce120079"],
-Cell[5136, 145, 552, 9, 23, "Print",ExpressionUUID->"fc056f2f-6d87-4d40-a4bd-e2723637dcfb"],
-Cell[5691, 156, 531, 9, 23, "Print",ExpressionUUID->"c5060761-033f-4f16-8bd4-b74c6464369a"],
-Cell[6225, 167, 570, 10, 23, "Print",ExpressionUUID->"37f92e42-7a0a-40ba-ae7b-9a7f95e5308c"],
-Cell[6798, 179, 848, 18, 23, "Print",ExpressionUUID->"4cacefdf-5f62-4fcd-8b8a-739b4af61eb7"],
-Cell[7649, 199, 591, 10, 23, "Print",ExpressionUUID->"0ba4a44b-8536-4b47-a9bb-b59e0fb259d7"],
-Cell[8243, 211, 568, 10, 23, "Print",ExpressionUUID->"106504d1-f743-45c1-b2ab-beb197e65cf1"],
-Cell[8814, 223, 727, 12, 44, "Print",ExpressionUUID->"6a28cd31-ca91-4de1-8a0f-0ed107e5c52c"],
-Cell[9544, 237, 572, 10, 23, "Print",ExpressionUUID->"436656a5-47f4-4df8-aba3-ec61f6ca7a9e"]
+Cell[3173, 102, 570, 10, 23, "Print",ExpressionUUID->"ba9a3b84-8916-4bc4-b1e8-e77842c037ff"],
+Cell[3746, 114, 842, 18, 23, "Print",ExpressionUUID->"f8edaaf1-dbd5-4d7e-a9d6-4490053c9459"],
+Cell[4591, 134, 591, 10, 23, "Print",ExpressionUUID->"78d3f677-80d5-43a6-9aeb-6ae0ce120079"],
+Cell[5185, 146, 552, 9, 23, "Print",ExpressionUUID->"fc056f2f-6d87-4d40-a4bd-e2723637dcfb"],
+Cell[5740, 157, 531, 9, 23, "Print",ExpressionUUID->"c5060761-033f-4f16-8bd4-b74c6464369a"],
+Cell[6274, 168, 570, 10, 23, "Print",ExpressionUUID->"37f92e42-7a0a-40ba-ae7b-9a7f95e5308c"],
+Cell[6847, 180, 848, 18, 23, "Print",ExpressionUUID->"4cacefdf-5f62-4fcd-8b8a-739b4af61eb7"],
+Cell[7698, 200, 591, 10, 23, "Print",ExpressionUUID->"0ba4a44b-8536-4b47-a9bb-b59e0fb259d7"],
+Cell[8292, 212, 568, 10, 23, "Print",ExpressionUUID->"106504d1-f743-45c1-b2ab-beb197e65cf1"],
+Cell[8863, 224, 727, 12, 44, "Print",ExpressionUUID->"6a28cd31-ca91-4de1-8a0f-0ed107e5c52c"],
+Cell[9593, 238, 572, 10, 23, "Print",ExpressionUUID->"436656a5-47f4-4df8-aba3-ec61f6ca7a9e"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[10165, 253, 133, 2, 29, "Input",ExpressionUUID->"52a203be-dde6-4a9b-a64f-3f0a16589806"],
+Cell[10214, 254, 133, 2, 29, "Input",ExpressionUUID->"52a203be-dde6-4a9b-a64f-3f0a16589806"],
 Cell[CellGroupData[{
-Cell[10323, 259, 471, 8, 23, "Print",ExpressionUUID->"cb2a0e9d-ddcf-47b5-8d75-a8ec8177492f"],
-Cell[10797, 269, 743, 16, 23, "Print",ExpressionUUID->"8a68e922-21e4-49a1-9bef-acbec32dd661"],
-Cell[11543, 287, 540, 9, 23, "Print",ExpressionUUID->"ade6e353-c2cf-4ebb-bac1-f4fdfd18b440"],
-Cell[12086, 298, 471, 8, 23, "Print",ExpressionUUID->"e984114a-0bc4-4744-bde1-b5b1d17101b6"],
-Cell[12560, 308, 626, 10, 44, "Print",ExpressionUUID->"efc5527f-68f7-4494-affe-857242bfa29e"],
-Cell[13189, 320, 473, 8, 23, "Print",ExpressionUUID->"1ef6d8bc-cc44-4992-bc58-e00c14ceacf6"],
-Cell[13665, 330, 715, 15, 23, "Print",ExpressionUUID->"3a954c04-33d6-4d40-935e-86ab459cded7"],
-Cell[14383, 347, 799, 16, 23, "Print",ExpressionUUID->"f91bf736-43d6-47ea-aa15-d2b9d51aa237"],
-Cell[15185, 365, 898, 16, 23, "Print",ExpressionUUID->"3c1a058f-5f20-4f30-82c4-52d5cf016963"],
-Cell[16086, 383, 858, 16, 23, "Print",ExpressionUUID->"cc792dc9-2135-49d8-99e5-2225d576d35a"],
-Cell[16947, 401, 876, 16, 23, "Print",ExpressionUUID->"2c948bc1-85d1-40ec-88b8-9179e631b975"]
+Cell[10372, 260, 471, 8, 23, "Print",ExpressionUUID->"cb2a0e9d-ddcf-47b5-8d75-a8ec8177492f"],
+Cell[10846, 270, 743, 16, 23, "Print",ExpressionUUID->"8a68e922-21e4-49a1-9bef-acbec32dd661"],
+Cell[11592, 288, 540, 9, 23, "Print",ExpressionUUID->"ade6e353-c2cf-4ebb-bac1-f4fdfd18b440"],
+Cell[12135, 299, 471, 8, 23, "Print",ExpressionUUID->"e984114a-0bc4-4744-bde1-b5b1d17101b6"],
+Cell[12609, 309, 626, 10, 44, "Print",ExpressionUUID->"efc5527f-68f7-4494-affe-857242bfa29e"],
+Cell[13238, 321, 473, 8, 23, "Print",ExpressionUUID->"1ef6d8bc-cc44-4992-bc58-e00c14ceacf6"],
+Cell[13714, 331, 715, 15, 23, "Print",ExpressionUUID->"3a954c04-33d6-4d40-935e-86ab459cded7"],
+Cell[14432, 348, 799, 16, 23, "Print",ExpressionUUID->"f91bf736-43d6-47ea-aa15-d2b9d51aa237"],
+Cell[15234, 366, 898, 16, 23, "Print",ExpressionUUID->"3c1a058f-5f20-4f30-82c4-52d5cf016963"],
+Cell[16135, 384, 858, 16, 23, "Print",ExpressionUUID->"cc792dc9-2135-49d8-99e5-2225d576d35a"],
+Cell[16996, 402, 876, 16, 23, "Print",ExpressionUUID->"2c948bc1-85d1-40ec-88b8-9179e631b975"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[17884, 424, 168, 3, 54, "Subsection",ExpressionUUID->"ea7a8f3a-dc9f-4ff1-9ea5-6983a92db55b"],
-Cell[18055, 429, 166, 3, 29, "Input",ExpressionUUID->"38c49b9d-ea9f-48fe-a83f-ad1ffad89b72"]
+Cell[17933, 425, 168, 3, 54, "Subsection",ExpressionUUID->"ea7a8f3a-dc9f-4ff1-9ea5-6983a92db55b"],
+Cell[18104, 430, 166, 3, 29, "Input",ExpressionUUID->"38c49b9d-ea9f-48fe-a83f-ad1ffad89b72"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[18258, 437, 178, 3, 38, "Subsection",ExpressionUUID->"3975fd65-7248-499d-85a6-e526ddc4cfd8"],
+Cell[18307, 438, 178, 3, 38, "Subsection",ExpressionUUID->"3975fd65-7248-499d-85a6-e526ddc4cfd8"],
 Cell[CellGroupData[{
-Cell[18461, 444, 869, 15, 29, "Input",ExpressionUUID->"0f2874ec-9b71-47c2-8348-430a49d48f6f"],
+Cell[18510, 445, 869, 15, 29, "Input",ExpressionUUID->"0f2874ec-9b71-47c2-8348-430a49d48f6f"],
 Cell[CellGroupData[{
-Cell[19355, 463, 695, 15, 23, "Print",ExpressionUUID->"0baa3e1c-bd5f-4bff-9770-d0fa7b5c6876"],
-Cell[20053, 480, 702, 15, 23, "Print",ExpressionUUID->"697704a2-d271-4570-b9cf-f4aff8426d21"]
+Cell[19404, 464, 695, 15, 23, "Print",ExpressionUUID->"0baa3e1c-bd5f-4bff-9770-d0fa7b5c6876"],
+Cell[20102, 481, 702, 15, 23, "Print",ExpressionUUID->"697704a2-d271-4570-b9cf-f4aff8426d21"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20804, 501, 738, 20, 70, "Input",ExpressionUUID->"82503a2c-3672-4c5a-b1e4-6bae5b46bf7b"],
+Cell[20853, 502, 738, 20, 70, "Input",ExpressionUUID->"82503a2c-3672-4c5a-b1e4-6bae5b46bf7b"],
 Cell[CellGroupData[{
-Cell[21567, 525, 985, 21, 23, "Print",ExpressionUUID->"abb605b9-96eb-46f5-8745-16ab77a887bc"],
-Cell[22555, 548, 1091, 24, 23, "Print",ExpressionUUID->"4046d4e9-ad5d-4489-bb26-e9a4d9157f4c"],
-Cell[23649, 574, 1062, 22, 23, "Print",ExpressionUUID->"60c1d7ab-af76-4fcb-b14e-5c8c96a94530"],
-Cell[24714, 598, 1082, 22, 23, "Print",ExpressionUUID->"d2e177a4-4519-452f-9dfd-bcd6c2e9e9d1"],
-Cell[25799, 622, 901, 19, 23, "Print",ExpressionUUID->"835708ca-6cf4-49de-8ce2-ef3335eef7ab"],
-Cell[26703, 643, 1021, 22, 23, "Print",ExpressionUUID->"c2c33c33-6e62-4708-9fa9-5ec28e2ff602"],
-Cell[27727, 667, 1039, 23, 23, "Print",ExpressionUUID->"8bc2377a-ca8b-4d0d-b262-2f577341486d"],
-Cell[28769, 692, 1067, 23, 23, "Print",ExpressionUUID->"97966151-b6d4-4697-8fb1-f70814d698fd"],
-Cell[29839, 717, 985, 21, 23, "Print",ExpressionUUID->"ab1e403b-3bb3-478b-90ff-9f676c20bd26"],
-Cell[30827, 740, 490, 8, 23, "Print",ExpressionUUID->"38d2c4ea-95ac-40d0-9f3c-f478a867a5cf"],
-Cell[31320, 750, 867, 17, 23, "Print",ExpressionUUID->"109277ba-b967-4f29-98e0-df9425a801b4"],
-Cell[32190, 769, 496, 8, 23, "Print",ExpressionUUID->"9c46bcd2-d11d-4aae-94ee-87450aac2090"],
-Cell[32689, 779, 999, 22, 23, "Print",ExpressionUUID->"cb97f4b5-7402-4f03-8291-6f11619316ff"],
-Cell[33691, 803, 1052, 22, 23, "Print",ExpressionUUID->"d2f7616b-dcb8-47eb-9f9c-a28f0d6d5d3b"],
-Cell[34746, 827, 991, 21, 23, "Print",ExpressionUUID->"e1681ec1-ab4e-4d2a-8e1d-88f4863804db"],
-Cell[35740, 850, 879, 17, 23, "Print",ExpressionUUID->"80694066-1e5e-4800-bc6b-660a286ab224"],
-Cell[36622, 869, 625, 12, 23, "Print",ExpressionUUID->"95e3bd42-5191-4e5f-8bc8-b7dec67badf6"],
-Cell[37250, 883, 617, 12, 23, "Print",ExpressionUUID->"0324a65c-9219-4368-9470-49ce8e25195a"],
-Cell[37870, 897, 629, 12, 23, "Print",ExpressionUUID->"27831171-78c7-4b7c-b7f9-a4b43621804a"],
-Cell[38502, 911, 893, 17, 23, "Print",ExpressionUUID->"b0997cdb-9fa5-4eed-8d91-a777c282357c"],
-Cell[39398, 930, 839, 17, 23, "Print",ExpressionUUID->"fbb99ba5-ce3f-4f4a-80fa-ceb49c10cb2b"],
-Cell[40240, 949, 1029, 21, 23, "Print",ExpressionUUID->"9d3712b1-c992-4684-a602-c93cc0b66d88"]
+Cell[21616, 526, 985, 21, 23, "Print",ExpressionUUID->"abb605b9-96eb-46f5-8745-16ab77a887bc"],
+Cell[22604, 549, 1091, 24, 23, "Print",ExpressionUUID->"4046d4e9-ad5d-4489-bb26-e9a4d9157f4c"],
+Cell[23698, 575, 1062, 22, 23, "Print",ExpressionUUID->"60c1d7ab-af76-4fcb-b14e-5c8c96a94530"],
+Cell[24763, 599, 1082, 22, 23, "Print",ExpressionUUID->"d2e177a4-4519-452f-9dfd-bcd6c2e9e9d1"],
+Cell[25848, 623, 901, 19, 23, "Print",ExpressionUUID->"835708ca-6cf4-49de-8ce2-ef3335eef7ab"],
+Cell[26752, 644, 1021, 22, 23, "Print",ExpressionUUID->"c2c33c33-6e62-4708-9fa9-5ec28e2ff602"],
+Cell[27776, 668, 1039, 23, 23, "Print",ExpressionUUID->"8bc2377a-ca8b-4d0d-b262-2f577341486d"],
+Cell[28818, 693, 1067, 23, 23, "Print",ExpressionUUID->"97966151-b6d4-4697-8fb1-f70814d698fd"],
+Cell[29888, 718, 985, 21, 23, "Print",ExpressionUUID->"ab1e403b-3bb3-478b-90ff-9f676c20bd26"],
+Cell[30876, 741, 490, 8, 23, "Print",ExpressionUUID->"38d2c4ea-95ac-40d0-9f3c-f478a867a5cf"],
+Cell[31369, 751, 867, 17, 23, "Print",ExpressionUUID->"109277ba-b967-4f29-98e0-df9425a801b4"],
+Cell[32239, 770, 496, 8, 23, "Print",ExpressionUUID->"9c46bcd2-d11d-4aae-94ee-87450aac2090"],
+Cell[32738, 780, 999, 22, 23, "Print",ExpressionUUID->"cb97f4b5-7402-4f03-8291-6f11619316ff"],
+Cell[33740, 804, 1052, 22, 23, "Print",ExpressionUUID->"d2f7616b-dcb8-47eb-9f9c-a28f0d6d5d3b"],
+Cell[34795, 828, 991, 21, 23, "Print",ExpressionUUID->"e1681ec1-ab4e-4d2a-8e1d-88f4863804db"],
+Cell[35789, 851, 879, 17, 23, "Print",ExpressionUUID->"80694066-1e5e-4800-bc6b-660a286ab224"],
+Cell[36671, 870, 625, 12, 23, "Print",ExpressionUUID->"95e3bd42-5191-4e5f-8bc8-b7dec67badf6"],
+Cell[37299, 884, 617, 12, 23, "Print",ExpressionUUID->"0324a65c-9219-4368-9470-49ce8e25195a"],
+Cell[37919, 898, 629, 12, 23, "Print",ExpressionUUID->"27831171-78c7-4b7c-b7f9-a4b43621804a"],
+Cell[38551, 912, 893, 17, 23, "Print",ExpressionUUID->"b0997cdb-9fa5-4eed-8d91-a777c282357c"],
+Cell[39447, 931, 839, 17, 23, "Print",ExpressionUUID->"fbb99ba5-ce3f-4f4a-80fa-ceb49c10cb2b"],
+Cell[40289, 950, 1029, 21, 23, "Print",ExpressionUUID->"9d3712b1-c992-4684-a602-c93cc0b66d88"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[41318, 976, 775, 17, 50, "Input",ExpressionUUID->"e0d71396-7c61-447d-8fa2-7ecf27124dc5"],
+Cell[41367, 977, 775, 17, 50, "Input",ExpressionUUID->"e0d71396-7c61-447d-8fa2-7ecf27124dc5"],
 Cell[CellGroupData[{
-Cell[42118, 997, 836, 16, 23, "Print",ExpressionUUID->"23539789-377f-464b-ac7a-bb178ac68463"],
-Cell[42957, 1015, 923, 18, 23, "Print",ExpressionUUID->"c30bba32-7996-4829-9d65-a4b3801a9aa5"]
+Cell[42167, 998, 836, 16, 23, "Print",ExpressionUUID->"23539789-377f-464b-ac7a-bb178ac68463"],
+Cell[43006, 1016, 923, 18, 23, "Print",ExpressionUUID->"c30bba32-7996-4829-9d65-a4b3801a9aa5"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43941, 1040, 207, 3, 38, "Subsection",ExpressionUUID->"9cb4113f-c1ad-4b77-82cc-89761c97091e"],
-Cell[44151, 1045, 5524, 163, 232, "Input",ExpressionUUID->"7849e894-8b6b-4f70-b12b-782eec165597"]
+Cell[43990, 1041, 207, 3, 38, "Subsection",ExpressionUUID->"9cb4113f-c1ad-4b77-82cc-89761c97091e"],
+Cell[44200, 1046, 5524, 163, 232, "Input",ExpressionUUID->"7849e894-8b6b-4f70-b12b-782eec165597"]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[49724, 1214, 233, 4, 53, "Subtitle",ExpressionUUID->"65906a08-ce14-414b-9429-7efce87b8f05"],
-Cell[49960, 1220, 248, 6, 35, "Text",ExpressionUUID->"998044e8-d03a-424b-a0c6-5d2837071249"],
+Cell[49773, 1215, 233, 4, 53, "Subtitle",ExpressionUUID->"65906a08-ce14-414b-9429-7efce87b8f05"],
+Cell[50009, 1221, 248, 6, 35, "Text",ExpressionUUID->"998044e8-d03a-424b-a0c6-5d2837071249"],
 Cell[CellGroupData[{
-Cell[50233, 1230, 164, 3, 67, "Section",ExpressionUUID->"4836880f-6f65-4214-a374-dd887462e005"],
+Cell[50282, 1231, 164, 3, 67, "Section",ExpressionUUID->"4836880f-6f65-4214-a374-dd887462e005"],
 Cell[CellGroupData[{
-Cell[50422, 1237, 763, 15, 111, "Input",ExpressionUUID->"3d1a3c2c-5d88-4f8d-963b-5ae5de7cc4b0"],
+Cell[50471, 1238, 763, 15, 111, "Input",ExpressionUUID->"3d1a3c2c-5d88-4f8d-963b-5ae5de7cc4b0"],
 Cell[CellGroupData[{
-Cell[51210, 1256, 767, 16, 23, "Print",ExpressionUUID->"13744005-ed1a-4c35-b3ff-4c0e3b421c5d"],
-Cell[51980, 1274, 765, 16, 23, "Print",ExpressionUUID->"7881dcbe-a228-41f1-90c7-ff46d6fcfbd3"],
-Cell[52748, 1292, 769, 16, 23, "Print",ExpressionUUID->"273b5a3e-2a5a-4423-9af2-45ce839a8c44"]
+Cell[51259, 1257, 767, 16, 23, "Print",ExpressionUUID->"13744005-ed1a-4c35-b3ff-4c0e3b421c5d"],
+Cell[52029, 1275, 765, 16, 23, "Print",ExpressionUUID->"7881dcbe-a228-41f1-90c7-ff46d6fcfbd3"],
+Cell[52797, 1293, 769, 16, 23, "Print",ExpressionUUID->"273b5a3e-2a5a-4423-9af2-45ce839a8c44"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[53566, 1314, 1640, 52, 138, "Input",ExpressionUUID->"28d056a0-ab7d-471b-9ada-e81d08addcc6"],
-Cell[55209, 1368, 1882, 56, 47, "Output",ExpressionUUID->"a44433d2-7543-4b5f-a63c-1b1e459b53c5"],
-Cell[57094, 1426, 1884, 56, 47, "Output",ExpressionUUID->"1da20eb4-d96b-431c-99f5-8415ea1c5327"],
-Cell[58981, 1484, 1882, 56, 47, "Output",ExpressionUUID->"81856364-945f-48b1-931a-ba946a2ac6f5"],
-Cell[60866, 1542, 758, 18, 33, "Output",ExpressionUUID->"6aea6764-f7c4-4cd6-96db-ad087ce4cae9"]
+Cell[53615, 1315, 1640, 52, 138, "Input",ExpressionUUID->"28d056a0-ab7d-471b-9ada-e81d08addcc6"],
+Cell[55258, 1369, 1882, 56, 47, "Output",ExpressionUUID->"a44433d2-7543-4b5f-a63c-1b1e459b53c5"],
+Cell[57143, 1427, 1884, 56, 47, "Output",ExpressionUUID->"1da20eb4-d96b-431c-99f5-8415ea1c5327"],
+Cell[59030, 1485, 1882, 56, 47, "Output",ExpressionUUID->"81856364-945f-48b1-931a-ba946a2ac6f5"],
+Cell[60915, 1543, 758, 18, 33, "Output",ExpressionUUID->"6aea6764-f7c4-4cd6-96db-ad087ce4cae9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[61661, 1565, 439, 6, 111, "Input",ExpressionUUID->"29bf7f0e-41e6-428e-b14d-3b80ccba5cb0"],
+Cell[61710, 1566, 439, 6, 111, "Input",ExpressionUUID->"29bf7f0e-41e6-428e-b14d-3b80ccba5cb0"],
 Cell[CellGroupData[{
-Cell[62125, 1575, 742, 15, 23, "Print",ExpressionUUID->"221d1379-7b7a-4695-974e-1bef08053bcf"],
-Cell[62870, 1592, 742, 15, 23, "Print",ExpressionUUID->"fa9699a8-0b4f-40eb-be08-78bd5f83fb35"],
-Cell[63615, 1609, 744, 15, 23, "Print",ExpressionUUID->"7a8287c7-3398-4339-82eb-afe7ad2ba707"],
-Cell[64362, 1626, 742, 15, 23, "Print",ExpressionUUID->"c75fe61d-5b7f-4dda-ac59-50a0a2cfc42d"],
-Cell[65107, 1643, 741, 15, 23, "Print",ExpressionUUID->"99a97247-1316-45e7-8d1b-f01a8464b7a3"]
+Cell[62174, 1576, 742, 15, 23, "Print",ExpressionUUID->"221d1379-7b7a-4695-974e-1bef08053bcf"],
+Cell[62919, 1593, 742, 15, 23, "Print",ExpressionUUID->"fa9699a8-0b4f-40eb-be08-78bd5f83fb35"],
+Cell[63664, 1610, 744, 15, 23, "Print",ExpressionUUID->"7a8287c7-3398-4339-82eb-afe7ad2ba707"],
+Cell[64411, 1627, 742, 15, 23, "Print",ExpressionUUID->"c75fe61d-5b7f-4dda-ac59-50a0a2cfc42d"],
+Cell[65156, 1644, 741, 15, 23, "Print",ExpressionUUID->"99a97247-1316-45e7-8d1b-f01a8464b7a3"]
 }, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[65909, 1665, 235, 4, 53, "Section",ExpressionUUID->"61690543-371a-4406-86ba-e8f979c7b4ce"],
-Cell[CellGroupData[{
-Cell[66169, 1673, 156, 3, 54, "Subsection",ExpressionUUID->"79abbdf6-4fbd-4d3c-9c62-87f81edaac83"],
-Cell[CellGroupData[{
-Cell[66350, 1680, 758, 19, 192, "Input",ExpressionUUID->"56adc97e-3326-4921-9dd8-a73f4d668818"],
-Cell[67111, 1701, 3049, 93, 48, "Output",ExpressionUUID->"8051b781-a8fa-4836-9079-4ea9e0dd4d6d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[70197, 1799, 400, 8, 29, "Input",ExpressionUUID->"2418bbe9-5073-4a30-821f-17ad2b677d86"],
-Cell[70600, 1809, 15797, 516, 118, "Output",ExpressionUUID->"eef3cb1c-ee0c-4a64-80f9-bc8ffa049929"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[86446, 2331, 176, 3, 38, "Subsection",ExpressionUUID->"1da8e5dc-1da9-4bba-b2ff-1850c8950914"],
-Cell[86625, 2336, 995, 28, 74, "Input",ExpressionUUID->"b9425bc7-bef3-4af2-a2ab-07661236e36e"],
+Cell[65958, 1666, 235, 4, 53, "Section",ExpressionUUID->"61690543-371a-4406-86ba-e8f979c7b4ce"],
 Cell[CellGroupData[{
-Cell[87645, 2368, 492, 12, 70, "Input",ExpressionUUID->"20b2e124-ce0d-467a-bfba-c22f8a5b4d8c"],
-Cell[88140, 2382, 1128, 33, 33, "Output",ExpressionUUID->"3e03cbf9-eb88-42cf-89e0-6a8f9c824653"]
+Cell[66218, 1674, 156, 3, 54, "Subsection",ExpressionUUID->"79abbdf6-4fbd-4d3c-9c62-87f81edaac83"],
+Cell[CellGroupData[{
+Cell[66399, 1681, 758, 19, 192, "Input",ExpressionUUID->"56adc97e-3326-4921-9dd8-a73f4d668818"],
+Cell[67160, 1702, 3049, 93, 48, "Output",ExpressionUUID->"8051b781-a8fa-4836-9079-4ea9e0dd4d6d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[89305, 2420, 637, 20, 29, "Input",ExpressionUUID->"06ce024b-327b-4e0c-8aeb-3933bea6c72a"],
-Cell[89945, 2442, 1101, 33, 35, "Output",ExpressionUUID->"97858b16-e8ae-450b-8078-ace1700d9dda"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[91083, 2480, 303, 6, 29, "Input",ExpressionUUID->"d7202720-623f-4184-a26e-08783f20407b"],
-Cell[91389, 2488, 363, 5, 33, "Output",ExpressionUUID->"ae1d7392-e522-4055-9868-7161cef13b8d"]
+Cell[70246, 1800, 400, 8, 29, "Input",ExpressionUUID->"2418bbe9-5073-4a30-821f-17ad2b677d86"],
+Cell[70649, 1810, 15797, 516, 118, "Output",ExpressionUUID->"eef3cb1c-ee0c-4a64-80f9-bc8ffa049929"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[91801, 2499, 174, 3, 38, "Subsection",ExpressionUUID->"6df65673-c1f1-48c9-89ba-f19fb6bed7cd"],
-Cell[91978, 2504, 1430, 36, 115, "Input",ExpressionUUID->"2f55698b-9e5f-42ca-a7e3-f1b590368da3"],
+Cell[86495, 2332, 176, 3, 38, "Subsection",ExpressionUUID->"1da8e5dc-1da9-4bba-b2ff-1850c8950914"],
+Cell[86674, 2337, 995, 28, 74, "Input",ExpressionUUID->"b9425bc7-bef3-4af2-a2ab-07661236e36e"],
 Cell[CellGroupData[{
-Cell[93433, 2544, 678, 16, 70, "Input",ExpressionUUID->"12daab0d-419b-49d6-ae8d-32a88918e8cd"],
-Cell[94114, 2562, 4208, 129, 48, "Output",ExpressionUUID->"e1b7fd88-04d1-4548-83cb-cff05576b3be"]
+Cell[87694, 2369, 492, 12, 70, "Input",ExpressionUUID->"20b2e124-ce0d-467a-bfba-c22f8a5b4d8c"],
+Cell[88189, 2383, 1128, 33, 33, "Output",ExpressionUUID->"3e03cbf9-eb88-42cf-89e0-6a8f9c824653"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[98359, 2696, 1397, 39, 172, "Input",ExpressionUUID->"ac402858-2123-4056-bb8c-584cf3ffed82"],
-Cell[99759, 2737, 6569, 205, 47, "Output",ExpressionUUID->"02d0b1e4-81f2-4c33-9619-ec903dad28dc"]
+Cell[89354, 2421, 637, 20, 29, "Input",ExpressionUUID->"06ce024b-327b-4e0c-8aeb-3933bea6c72a"],
+Cell[89994, 2443, 1101, 33, 35, "Output",ExpressionUUID->"97858b16-e8ae-450b-8078-ace1700d9dda"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[106365, 2947, 340, 7, 29, "Input",ExpressionUUID->"ba41c3e4-b419-43e6-92f3-25bf4c617244"],
-Cell[106708, 2956, 421, 6, 33, "Output",ExpressionUUID->"ea141b4c-667a-437a-993f-88012d890e8c"]
-}, Open  ]]
-}, Closed]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[107190, 2969, 286, 5, 53, "Section",ExpressionUUID->"0b312b59-f8ef-4a50-b41d-44633e4628a9"],
-Cell[CellGroupData[{
-Cell[107501, 2978, 156, 3, 54, "Subsection",ExpressionUUID->"b5e638f3-ed21-4fa4-84a5-895aa9b315ec"],
-Cell[CellGroupData[{
-Cell[107682, 2985, 639, 15, 70, "Input",ExpressionUUID->"14236526-ff63-45d9-a89a-f51aa6e88887"],
-Cell[108324, 3002, 2810, 86, 47, "Output",ExpressionUUID->"ccf91ba6-5042-4a70-9d04-9196465df7e7"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[111171, 3093, 499, 9, 29, "Input",ExpressionUUID->"62435fd7-2f62-42cb-aa02-1ed903f1038d"],
-Cell[111673, 3104, 17647, 540, 153, "Output",ExpressionUUID->"ff51d249-b17c-4970-a735-a12088fc4161"]
+Cell[91132, 2481, 303, 6, 29, "Input",ExpressionUUID->"d7202720-623f-4184-a26e-08783f20407b"],
+Cell[91438, 2489, 363, 5, 33, "Output",ExpressionUUID->"ae1d7392-e522-4055-9868-7161cef13b8d"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[129369, 3650, 176, 3, 38, "Subsection",ExpressionUUID->"43a4f304-9aab-4321-91ea-74ec39a855bc"],
-Cell[129548, 3655, 1086, 29, 74, "Input",ExpressionUUID->"4a732344-f27e-4d7b-8a45-b32dbc30db1e"],
-Cell[130637, 3686, 691, 15, 70, "Input",ExpressionUUID->"9cbc97f5-a580-4400-872e-3d7bbe882dfb"],
-Cell[131331, 3703, 3734, 114, 161, "Input",ExpressionUUID->"b119fa8b-d298-49be-940a-e377d5bea6ee"],
+Cell[91850, 2500, 174, 3, 38, "Subsection",ExpressionUUID->"6df65673-c1f1-48c9-89ba-f19fb6bed7cd"],
+Cell[92027, 2505, 1430, 36, 115, "Input",ExpressionUUID->"2f55698b-9e5f-42ca-a7e3-f1b590368da3"],
 Cell[CellGroupData[{
-Cell[135090, 3821, 390, 8, 29, "Input",ExpressionUUID->"e402b419-ca41-4fdd-bfde-d9adcb77ab9e"],
-Cell[135483, 3831, 469, 6, 33, "Output",ExpressionUUID->"70386389-38d4-41de-b6e9-05e37b1b6174"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[136001, 3843, 174, 3, 38, "Subsection",ExpressionUUID->"c2e6519c-a77a-45ec-ab85-9e02f7b1a7e6"],
-Cell[136178, 3848, 1429, 36, 115, "Input",ExpressionUUID->"2b10ad01-1022-45dd-8f4c-d7134874b529"],
-Cell[CellGroupData[{
-Cell[137632, 3888, 653, 14, 50, "Input",ExpressionUUID->"99c69b4a-81fe-4443-9acc-bffb30566164"],
-Cell[138288, 3904, 7638, 221, 47, "Output",ExpressionUUID->"6451b0cd-222d-44a6-93b3-d016cfa6734c"]
+Cell[93482, 2545, 678, 16, 70, "Input",ExpressionUUID->"12daab0d-419b-49d6-ae8d-32a88918e8cd"],
+Cell[94163, 2563, 4208, 129, 48, "Output",ExpressionUUID->"e1b7fd88-04d1-4548-83cb-cff05576b3be"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[145963, 4130, 1518, 44, 148, "Input",ExpressionUUID->"4583b94a-ffae-4f50-af07-d186c79f2578"],
-Cell[147484, 4176, 6225, 191, 47, "Output",ExpressionUUID->"efd963b0-5cc3-4ed7-bf60-0d92d5ac0cf9"]
+Cell[98408, 2697, 1397, 39, 172, "Input",ExpressionUUID->"ac402858-2123-4056-bb8c-584cf3ffed82"],
+Cell[99808, 2738, 6569, 205, 47, "Output",ExpressionUUID->"02d0b1e4-81f2-4c33-9619-ec903dad28dc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[153746, 4372, 487, 10, 29, "Input",ExpressionUUID->"d1960c4b-0110-47de-95c7-d3d5941da134"],
-Cell[154236, 4384, 584, 9, 33, "Output",ExpressionUUID->"b7348ffb-914d-4558-9e36-51dbc4fc05aa"]
+Cell[106414, 2948, 340, 7, 29, "Input",ExpressionUUID->"ba41c3e4-b419-43e6-92f3-25bf4c617244"],
+Cell[106757, 2957, 421, 6, 33, "Output",ExpressionUUID->"ea141b4c-667a-437a-993f-88012d890e8c"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[154881, 4400, 333, 5, 53, "Section",ExpressionUUID->"9f6834d1-9989-409d-abaf-cb52bdf7269c"],
+Cell[107239, 2970, 286, 5, 53, "Section",ExpressionUUID->"0b312b59-f8ef-4a50-b41d-44633e4628a9"],
 Cell[CellGroupData[{
-Cell[155239, 4409, 156, 3, 54, "Subsection",ExpressionUUID->"a21e9140-01ba-4038-98ea-3f287f8e29b4"],
+Cell[107550, 2979, 156, 3, 54, "Subsection",ExpressionUUID->"b5e638f3-ed21-4fa4-84a5-895aa9b315ec"],
 Cell[CellGroupData[{
-Cell[155420, 4416, 692, 16, 70, "Input",ExpressionUUID->"fed4df97-8841-4d45-b97d-96e6bfbbef48"],
-Cell[156115, 4434, 3231, 98, 47, "Output",ExpressionUUID->"3f701805-a588-4c17-83a9-00eee4f3ecc9"]
+Cell[107731, 2986, 639, 15, 70, "Input",ExpressionUUID->"14236526-ff63-45d9-a89a-f51aa6e88887"],
+Cell[108373, 3003, 2810, 86, 47, "Output",ExpressionUUID->"ccf91ba6-5042-4a70-9d04-9196465df7e7"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[159383, 4537, 497, 9, 29, "Input",ExpressionUUID->"701dd20b-3852-4963-8713-c7dbc7ee7cf4"],
-Cell[159883, 4548, 36256, 1109, 294, "Output",ExpressionUUID->"72b40606-734b-4b68-b96b-e71b19c76c01"]
+Cell[111220, 3094, 499, 9, 29, "Input",ExpressionUUID->"62435fd7-2f62-42cb-aa02-1ed903f1038d"],
+Cell[111722, 3105, 17659, 540, 153, "Output",ExpressionUUID->"ff51d249-b17c-4970-a735-a12088fc4161"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[196188, 5663, 176, 3, 38, "Subsection",ExpressionUUID->"dd0bb82a-ba2c-4830-ab74-36d2fe3d396f"],
-Cell[196367, 5668, 1088, 29, 74, "Input",ExpressionUUID->"165bb2c2-7467-45b7-8550-de118fb54113"],
-Cell[197458, 5699, 643, 15, 70, "Input",ExpressionUUID->"33aa8fe4-d1e2-4e77-9598-af8085142330"],
-Cell[198104, 5716, 7929, 245, 340, "Input",ExpressionUUID->"947b75d6-b895-47bb-b7ef-5422d4596cc8"],
+Cell[129430, 3651, 176, 3, 38, "Subsection",ExpressionUUID->"43a4f304-9aab-4321-91ea-74ec39a855bc"],
+Cell[129609, 3656, 1086, 29, 74, "Input",ExpressionUUID->"4a732344-f27e-4d7b-8a45-b32dbc30db1e"],
+Cell[130698, 3687, 691, 15, 70, "Input",ExpressionUUID->"9cbc97f5-a580-4400-872e-3d7bbe882dfb"],
+Cell[131392, 3704, 3734, 114, 161, "Input",ExpressionUUID->"b119fa8b-d298-49be-940a-e377d5bea6ee"],
 Cell[CellGroupData[{
-Cell[206058, 5965, 391, 8, 29, "Input",ExpressionUUID->"6c57779a-0009-404a-9591-1b235ffd9221"],
-Cell[206452, 5975, 510, 7, 33, "Output",ExpressionUUID->"818fbaa0-526a-4545-8640-1ef179651549"]
+Cell[135151, 3822, 390, 8, 29, "Input",ExpressionUUID->"e402b419-ca41-4fdd-bfde-d9adcb77ab9e"],
+Cell[135544, 3832, 469, 6, 33, "Output",ExpressionUUID->"70386389-38d4-41de-b6e9-05e37b1b6174"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[207011, 5988, 223, 4, 38, "Subsection",ExpressionUUID->"70d74f27-ce04-44dc-aee3-5369ea287dd3"],
-Cell[207237, 5994, 1505, 37, 115, "Input",ExpressionUUID->"6620262f-6b06-4d7d-84be-bef72aea2d81"],
-Cell[208745, 6033, 881, 19, 50, "Input",ExpressionUUID->"69e13563-c19b-4ad0-841c-de7777fc6086"],
-Cell[209629, 6054, 5114, 136, 226, "Input",ExpressionUUID->"19a52232-9e12-4489-afb5-c4bccc11d575"],
+Cell[136062, 3844, 174, 3, 38, "Subsection",ExpressionUUID->"c2e6519c-a77a-45ec-ab85-9e02f7b1a7e6"],
+Cell[136239, 3849, 1429, 36, 115, "Input",ExpressionUUID->"2b10ad01-1022-45dd-8f4c-d7134874b529"],
 Cell[CellGroupData[{
-Cell[214768, 6194, 915, 18, 50, "Input",ExpressionUUID->"f7422080-2470-4ef6-9ba7-cc473fcca5c3"],
-Cell[215686, 6214, 1010, 14, 33, "Output",ExpressionUUID->"7d251426-4c4d-4f20-9eab-76d8ce1aca4d"]
+Cell[137693, 3889, 653, 14, 50, "Input",ExpressionUUID->"99c69b4a-81fe-4443-9acc-bffb30566164"],
+Cell[138349, 3905, 7644, 221, 47, "Output",ExpressionUUID->"6451b0cd-222d-44a6-93b3-d016cfa6734c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[146030, 4131, 1518, 44, 148, "Input",ExpressionUUID->"4583b94a-ffae-4f50-af07-d186c79f2578"],
+Cell[147551, 4177, 6225, 191, 47, "Output",ExpressionUUID->"efd963b0-5cc3-4ed7-bf60-0d92d5ac0cf9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[153813, 4373, 487, 10, 29, "Input",ExpressionUUID->"d1960c4b-0110-47de-95c7-d3d5941da134"],
+Cell[154303, 4385, 584, 9, 33, "Output",ExpressionUUID->"b7348ffb-914d-4558-9e36-51dbc4fc05aa"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[216757, 6235, 385, 6, 53, "Section",ExpressionUUID->"8355090d-a771-4c16-9f7e-33b63d0c14eb"],
+Cell[154948, 4401, 333, 5, 53, "Section",ExpressionUUID->"9f6834d1-9989-409d-abaf-cb52bdf7269c"],
 Cell[CellGroupData[{
-Cell[217167, 6245, 156, 3, 54, "Subsection",ExpressionUUID->"8a892dbe-0852-4772-9e73-63a2140236ae"],
+Cell[155306, 4410, 156, 3, 54, "Subsection",ExpressionUUID->"a21e9140-01ba-4038-98ea-3f287f8e29b4"],
 Cell[CellGroupData[{
-Cell[217348, 6252, 1697, 46, 114, "Input",ExpressionUUID->"9f73cea6-3b45-4e46-8ee3-608804cc3712"],
-Cell[219048, 6300, 9588, 285, 70, "Output",ExpressionUUID->"a1b8300b-f995-48dc-b5b4-9e6f3181c684"]
+Cell[155487, 4417, 692, 16, 70, "Input",ExpressionUUID->"fed4df97-8841-4d45-b97d-96e6bfbbef48"],
+Cell[156182, 4435, 3231, 98, 47, "Output",ExpressionUUID->"3f701805-a588-4c17-83a9-00eee4f3ecc9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[228673, 6590, 545, 10, 29, "Input",ExpressionUUID->"793834d1-b93e-42d8-b636-060e76434e77"],
-Cell[229221, 6602, 111034, 3417, 70, "Output",ExpressionUUID->"639428de-46b9-43b0-9b8b-f826517e8669"]
+Cell[159450, 4538, 497, 9, 29, "Input",ExpressionUUID->"701dd20b-3852-4963-8713-c7dbc7ee7cf4"],
+Cell[159950, 4549, 36280, 1109, 294, "Output",ExpressionUUID->"72b40606-734b-4b68-b96b-e71b19c76c01"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[340304, 10025, 176, 3, 38, "Subsection",ExpressionUUID->"c0399724-2b15-4e92-bab4-67d9a5ef5406"],
-Cell[340483, 10030, 1137, 30, 74, "Input",ExpressionUUID->"07ef92ca-fe0c-42fc-86e9-9b3911d9a1e4"],
-Cell[341623, 10062, 735, 16, 70, "Input",ExpressionUUID->"de9f92d9-305e-46c7-ab8e-d6a0c6f405d8"],
-Cell[342361, 10080, 13431, 413, 602, "Input",ExpressionUUID->"a0955147-a0df-450f-a055-dee59a9f28cb"],
+Cell[196279, 5664, 176, 3, 38, "Subsection",ExpressionUUID->"dd0bb82a-ba2c-4830-ab74-36d2fe3d396f"],
+Cell[196458, 5669, 1088, 29, 74, "Input",ExpressionUUID->"165bb2c2-7467-45b7-8550-de118fb54113"],
+Cell[197549, 5700, 643, 15, 70, "Input",ExpressionUUID->"33aa8fe4-d1e2-4e77-9598-af8085142330"],
+Cell[198195, 5717, 7929, 245, 340, "Input",ExpressionUUID->"947b75d6-b895-47bb-b7ef-5422d4596cc8"],
 Cell[CellGroupData[{
-Cell[355817, 10497, 792, 16, 50, "Input",ExpressionUUID->"f9d99f78-e809-4627-8646-84131f2baa6d"],
-Cell[356612, 10515, 8095, 238, 82, "Output",ExpressionUUID->"4dfcef9f-f067-4850-baac-fbe8a83fca4c"]
+Cell[206149, 5966, 391, 8, 29, "Input",ExpressionUUID->"6c57779a-0009-404a-9591-1b235ffd9221"],
+Cell[206543, 5976, 510, 7, 33, "Output",ExpressionUUID->"818fbaa0-526a-4545-8640-1ef179651549"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[364756, 10759, 174, 3, 38, "Subsection",ExpressionUUID->"0744ce3f-5d02-4e7b-a364-39f28e4632d3"],
-Cell[364933, 10764, 1479, 37, 115, "Input",ExpressionUUID->"9e1f19d7-c78d-4346-83fc-7a82c6e4a766"],
-Cell[366415, 10803, 752, 17, 50, "Input",ExpressionUUID->"8728136f-0412-4eeb-8f70-81794489a5ad"],
-Cell[367170, 10822, 10195, 308, 472, "Input",ExpressionUUID->"b90c8954-5cde-4a5f-9399-ef1abc5ba3f6"],
+Cell[207102, 5989, 223, 4, 38, "Subsection",ExpressionUUID->"70d74f27-ce04-44dc-aee3-5369ea287dd3"],
+Cell[207328, 5995, 1505, 37, 115, "Input",ExpressionUUID->"6620262f-6b06-4d7d-84be-bef72aea2d81"],
+Cell[208836, 6034, 881, 19, 50, "Input",ExpressionUUID->"69e13563-c19b-4ad0-841c-de7777fc6086"],
+Cell[209720, 6055, 5114, 136, 226, "Input",ExpressionUUID->"19a52232-9e12-4489-afb5-c4bccc11d575"],
 Cell[CellGroupData[{
-Cell[377390, 11134, 25993, 715, 439, "Input",ExpressionUUID->"ae7d8f64-1107-49ef-91d2-81646f70225f"],
-Cell[403386, 11851, 856, 12, 70, "Output",ExpressionUUID->"fbedf0e9-6682-4e98-aad9-e51f916a3430"]
+Cell[214859, 6195, 915, 18, 50, "Input",ExpressionUUID->"f7422080-2470-4ef6-9ba7-cc473fcca5c3"],
+Cell[215777, 6215, 1010, 14, 33, "Output",ExpressionUUID->"7d251426-4c4d-4f20-9eab-76d8ce1aca4d"]
 }, Open  ]]
 }, Closed]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[404303, 11870, 434, 7, 53, "Section",ExpressionUUID->"c1d9e9c5-ddff-4f1d-853f-0369ba95f373"],
+Cell[216848, 6236, 385, 6, 53, "Section",ExpressionUUID->"8355090d-a771-4c16-9f7e-33b63d0c14eb"],
 Cell[CellGroupData[{
-Cell[404762, 11881, 156, 3, 54, "Subsection",ExpressionUUID->"668d8deb-7298-47bc-9251-c72da8844222"],
+Cell[217258, 6246, 156, 3, 54, "Subsection",ExpressionUUID->"8a892dbe-0852-4772-9e73-63a2140236ae"],
 Cell[CellGroupData[{
-Cell[404943, 11888, 2321, 63, 152, "Input",ExpressionUUID->"3bb89900-8544-4bad-90d2-4f4c9b1dc00c"],
-Cell[407267, 11953, 26025, 772, 70, "Output",ExpressionUUID->"656148c2-b86f-4af0-a6bc-5cd6b0336bfd"]
+Cell[217439, 6253, 1697, 46, 114, "Input",ExpressionUUID->"9f73cea6-3b45-4e46-8ee3-608804cc3712"],
+Cell[219139, 6301, 9588, 285, 70, "Output",ExpressionUUID->"a1b8300b-f995-48dc-b5b4-9e6f3181c684"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[433329, 12730, 594, 11, 29, "Input",ExpressionUUID->"a9ca886c-4266-407f-ba7a-7b7541f68c2a"],
-Cell[433926, 12743, 225812, 6933, 70, "Output",ExpressionUUID->"cdf9736a-16b9-4650-b080-2d92ff2ac245"]
+Cell[228764, 6591, 545, 10, 29, "Input",ExpressionUUID->"793834d1-b93e-42d8-b636-060e76434e77"],
+Cell[229312, 6603, 111103, 3417, 70, "Output",ExpressionUUID->"639428de-46b9-43b0-9b8b-f826517e8669"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[659787, 19682, 182, 3, 38, "Subsection",ExpressionUUID->"57dbf721-f4d3-46e2-9d56-4550609f0b5e"],
-Cell[659972, 19687, 165, 3, 35, "Text",ExpressionUUID->"a9dfc910-8b88-4f87-8420-af2dae857e9e"],
+Cell[340464, 10026, 176, 3, 38, "Subsection",ExpressionUUID->"c0399724-2b15-4e92-bab4-67d9a5ef5406"],
+Cell[340643, 10031, 1137, 30, 74, "Input",ExpressionUUID->"07ef92ca-fe0c-42fc-86e9-9b3911d9a1e4"],
+Cell[341783, 10063, 735, 16, 70, "Input",ExpressionUUID->"de9f92d9-305e-46c7-ab8e-d6a0c6f405d8"],
+Cell[342521, 10081, 13431, 413, 602, "Input",ExpressionUUID->"a0955147-a0df-450f-a055-dee59a9f28cb"],
 Cell[CellGroupData[{
-Cell[660162, 19694, 1557, 41, 111, "Input",ExpressionUUID->"858a3e66-1e6c-417d-9786-436f85e99969"],
-Cell[661722, 19737, 62645, 1972, 400, "Output",ExpressionUUID->"5a2f58f9-9afc-4abb-ba18-a1758e648676"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[724404, 21714, 1900, 51, 131, "Input",ExpressionUUID->"c8044758-be50-4a1e-a6f7-0b9415f9903d"],
-Cell[726307, 21767, 55911, 1785, 649, "Output",ExpressionUUID->"4471105d-2948-4f88-a7c6-d9e5f812a37d"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[782255, 23557, 1718, 48, 131, "Input",ExpressionUUID->"6fa56ecd-5a70-4e06-a877-8b4cdd9da8b1"],
-Cell[783976, 23607, 23383, 724, 200, "Output",ExpressionUUID->"e2f86399-b524-4bcf-989e-7f04b38e68b6"]
-}, Open  ]],
-Cell[807374, 24334, 166, 3, 35, "Text",ExpressionUUID->"d7f823f0-62ef-4098-858e-2d3796fbf7bc"],
-Cell[CellGroupData[{
-Cell[807565, 24341, 1678, 46, 131, "Input",ExpressionUUID->"336127bc-b1f8-4be7-95ce-11a58abb77e6"],
-Cell[809246, 24389, 34297, 1080, 347, "Output",ExpressionUUID->"14ec9d1d-b03e-459e-9028-359b140911e4"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[843580, 25474, 1967, 55, 131, "Input",ExpressionUUID->"ae876b2c-8823-48cc-9403-8c563d048bad"],
-Cell[845550, 25531, 26144, 833, 280, "Output",ExpressionUUID->"b3760afd-57ed-4236-9f9f-985138dd7624"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[871731, 26369, 1434, 38, 131, "Input",ExpressionUUID->"dcdf5c61-9906-419e-bf68-d0c01d6469fd"],
-Cell[873168, 26409, 15178, 468, 108, "Output",ExpressionUUID->"bfd89c15-c7b6-42f8-b2ce-111568ec9f26"]
+Cell[355977, 10498, 792, 16, 50, "Input",ExpressionUUID->"f9d99f78-e809-4627-8646-84131f2baa6d"],
+Cell[356772, 10516, 8101, 238, 82, "Output",ExpressionUUID->"4dfcef9f-f067-4850-baac-fbe8a83fca4c"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[888395, 26883, 176, 3, 38, "Subsection",ExpressionUUID->"6bb01879-9ee4-44ba-a9eb-2dc44e08c0c5"],
-Cell[888574, 26888, 1188, 31, 74, "Input",ExpressionUUID->"1c25e12a-35fe-4e98-b564-24d21e9b84b6"],
-Cell[889765, 26921, 812, 17, 70, "Input",ExpressionUUID->"8ef8140e-139f-4c27-9d32-86ad14e306e6"],
-Cell[890580, 26940, 16529, 503, 813, "Input",ExpressionUUID->"ad39b787-e4a1-4031-bed4-ebe5f011d6f5"],
+Cell[364922, 10760, 174, 3, 38, "Subsection",ExpressionUUID->"0744ce3f-5d02-4e7b-a364-39f28e4632d3"],
+Cell[365099, 10765, 1479, 37, 115, "Input",ExpressionUUID->"9e1f19d7-c78d-4346-83fc-7a82c6e4a766"],
+Cell[366581, 10804, 752, 17, 50, "Input",ExpressionUUID->"8728136f-0412-4eeb-8f70-81794489a5ad"],
+Cell[367336, 10823, 10195, 308, 472, "Input",ExpressionUUID->"b90c8954-5cde-4a5f-9399-ef1abc5ba3f6"],
 Cell[CellGroupData[{
-Cell[907134, 27447, 4491, 116, 106, "Input",ExpressionUUID->"ab1f7c67-b1f2-40fc-8f1d-576d8a5cc39d"],
-Cell[911628, 27565, 19019, 570, 167, "Output",ExpressionUUID->"d7e623ce-71d9-4d60-9ec3-5dc3b406282e"]
+Cell[377556, 11135, 26010, 716, 439, "Input",ExpressionUUID->"ae7d8f64-1107-49ef-91d2-81646f70225f"],
+Cell[403569, 11853, 856, 12, 70, "Output",ExpressionUUID->"fbedf0e9-6682-4e98-aad9-e51f916a3430"]
+}, Open  ]]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[404486, 11872, 434, 7, 53, "Section",ExpressionUUID->"c1d9e9c5-ddff-4f1d-853f-0369ba95f373"],
+Cell[CellGroupData[{
+Cell[404945, 11883, 156, 3, 54, "Subsection",ExpressionUUID->"668d8deb-7298-47bc-9251-c72da8844222"],
+Cell[CellGroupData[{
+Cell[405126, 11890, 2321, 63, 152, "Input",ExpressionUUID->"3bb89900-8544-4bad-90d2-4f4c9b1dc00c"],
+Cell[407450, 11955, 26025, 772, 70, "Output",ExpressionUUID->"656148c2-b86f-4af0-a6bc-5cd6b0336bfd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[433512, 12732, 594, 11, 29, "Input",ExpressionUUID->"a9ca886c-4266-407f-ba7a-7b7541f68c2a"],
+Cell[434109, 12745, 225941, 6933, 70, "Output",ExpressionUUID->"cdf9736a-16b9-4650-b080-2d92ff2ac245"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[930696, 28141, 174, 3, 38, "Subsection",ExpressionUUID->"6eb33cb8-2321-4db9-a96e-aa0a80fa8b5d"],
-Cell[930873, 28146, 1525, 37, 115, "Input",ExpressionUUID->"bf59f54d-b2bc-42f3-bff2-6ba51c38c284"],
-Cell[932401, 28185, 802, 18, 50, "Input",ExpressionUUID->"c602cc68-2df6-4495-ba98-a79f17486bcc"],
-Cell[933206, 28205, 12725, 365, 563, "Input",ExpressionUUID->"5f72263c-bb00-4c48-bf55-9c8911c7a151"],
+Cell[660099, 19684, 182, 3, 38, "Subsection",ExpressionUUID->"57dbf721-f4d3-46e2-9d56-4550609f0b5e"],
+Cell[660284, 19689, 165, 3, 35, "Text",ExpressionUUID->"a9dfc910-8b88-4f87-8420-af2dae857e9e"],
 Cell[CellGroupData[{
-Cell[945956, 28574, 24884, 672, 439, "Input",ExpressionUUID->"f9d5fe31-d938-4933-899e-8d369f45a2e4"],
-Cell[970843, 29248, 12693, 346, 82, "Output",ExpressionUUID->"6338169a-97f7-4723-8eaf-d62d16dee640"]
+Cell[660474, 19696, 1557, 41, 111, "Input",ExpressionUUID->"858a3e66-1e6c-417d-9786-436f85e99969"],
+Cell[662034, 19739, 62645, 1972, 400, "Output",ExpressionUUID->"5a2f58f9-9afc-4abb-ba18-a1758e648676"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[724716, 21716, 1900, 51, 131, "Input",ExpressionUUID->"c8044758-be50-4a1e-a6f7-0b9415f9903d"],
+Cell[726619, 21769, 55911, 1785, 649, "Output",ExpressionUUID->"4471105d-2948-4f88-a7c6-d9e5f812a37d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[782567, 23559, 1718, 48, 131, "Input",ExpressionUUID->"6fa56ecd-5a70-4e06-a877-8b4cdd9da8b1"],
+Cell[784288, 23609, 23383, 724, 200, "Output",ExpressionUUID->"e2f86399-b524-4bcf-989e-7f04b38e68b6"]
+}, Open  ]],
+Cell[807686, 24336, 166, 3, 35, "Text",ExpressionUUID->"d7f823f0-62ef-4098-858e-2d3796fbf7bc"],
+Cell[CellGroupData[{
+Cell[807877, 24343, 1678, 46, 131, "Input",ExpressionUUID->"336127bc-b1f8-4be7-95ce-11a58abb77e6"],
+Cell[809558, 24391, 34297, 1080, 347, "Output",ExpressionUUID->"14ec9d1d-b03e-459e-9028-359b140911e4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[843892, 25476, 1967, 55, 131, "Input",ExpressionUUID->"ae876b2c-8823-48cc-9403-8c563d048bad"],
+Cell[845862, 25533, 26144, 833, 280, "Output",ExpressionUUID->"b3760afd-57ed-4236-9f9f-985138dd7624"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[872043, 26371, 1434, 38, 131, "Input",ExpressionUUID->"dcdf5c61-9906-419e-bf68-d0c01d6469fd"],
+Cell[873480, 26411, 15178, 468, 108, "Output",ExpressionUUID->"bfd89c15-c7b6-42f8-b2ce-111568ec9f26"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[888707, 26885, 176, 3, 38, "Subsection",ExpressionUUID->"6bb01879-9ee4-44ba-a9eb-2dc44e08c0c5"],
+Cell[888886, 26890, 1188, 31, 74, "Input",ExpressionUUID->"1c25e12a-35fe-4e98-b564-24d21e9b84b6"],
+Cell[890077, 26923, 812, 17, 70, "Input",ExpressionUUID->"8ef8140e-139f-4c27-9d32-86ad14e306e6"],
+Cell[890892, 26942, 16529, 503, 813, "Input",ExpressionUUID->"ad39b787-e4a1-4031-bed4-ebe5f011d6f5"],
+Cell[CellGroupData[{
+Cell[907446, 27449, 4529, 117, 106, "Input",ExpressionUUID->"ab1f7c67-b1f2-40fc-8f1d-576d8a5cc39d"],
+Cell[911978, 27568, 19019, 570, 167, "Output",ExpressionUUID->"d7e623ce-71d9-4d60-9ec3-5dc3b406282e"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[931046, 28144, 174, 3, 38, "Subsection",ExpressionUUID->"6eb33cb8-2321-4db9-a96e-aa0a80fa8b5d"],
+Cell[931223, 28149, 1525, 37, 115, "Input",ExpressionUUID->"bf59f54d-b2bc-42f3-bff2-6ba51c38c284"],
+Cell[932751, 28188, 802, 18, 50, "Input",ExpressionUUID->"c602cc68-2df6-4495-ba98-a79f17486bcc"],
+Cell[933556, 28208, 12725, 365, 563, "Input",ExpressionUUID->"5f72263c-bb00-4c48-bf55-9c8911c7a151"],
+Cell[CellGroupData[{
+Cell[946306, 28577, 24901, 673, 439, "Input",ExpressionUUID->"f9d5fe31-d938-4933-899e-8d369f45a2e4"],
+Cell[971210, 29252, 12696, 346, 82, "Output",ExpressionUUID->"6338169a-97f7-4723-8eaf-d62d16dee640"]
 }, Open  ]]
 }, Closed]]
 }, Closed]]
